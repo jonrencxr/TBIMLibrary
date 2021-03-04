@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "SIMSDK"
-  s.version = "0.0.11"
+  s.version = "0.0.12"
   s.summary = "SIMSDK is very easy to use"
   s.authors = {"Jonrencxr"=>"Xuanren.Chang@geely.com"}
   s.homepage = "http://10.86.78.213:8000/ios_module_group/SIMSDK"

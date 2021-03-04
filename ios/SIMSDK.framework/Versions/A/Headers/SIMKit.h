@@ -18,6 +18,7 @@
 #import "SIMComm+Control.h"
 #import "SIMComm+Message.h"
 #import "SIMComm+Group.h"
+#import "SIMNetReq+AddressBook.h"
 
 #import "SIMManager.h"
 #import "SIMListenerManager.h"

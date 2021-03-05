@@ -39,6 +39,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)TBIM_loginSDK:(SIMSuccData)succ fail:(SIMFail)fail;
 
 /**
+ 注册新用户接口
+ */
+
+- (void)TBIM_register:(NSDictionary *)params success:(SIMSuccData)succ fail:(SIMFail)fail;
+
+- (void)TBIM_uploadPolocy:(SIMSuccData)succ fail:(SIMFail)fail;
+
+/**
  *  登录
  *
  *  @param param 登陆参数

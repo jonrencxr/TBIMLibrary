@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBIMLibrary'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'TBIMLibrary is easy to use'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TBIMLibrary is easy to use
                        DESC
 
-  s.homepage         = 'https://github.com/everyStudyNow/TBIMLibrary.git'
+  s.homepage         = 'https://github.com/Thunbu/TBIMLibrary.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'everyStudyNow' => 'xiaobing.jin@geely.com' }
-  s.source           = { :git => 'https://github.com/everyStudyNow/TBIMLibrary.git', :tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/Thunbu/TBIMLibrary.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

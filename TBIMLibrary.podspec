@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBIMLibrary'
-  s.version          = '0.0.13'
+  s.version          = '0.0.15'
   s.summary          = 'TBIMLibrary is easy to use'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,9 @@ TBIMLibrary is easy to use
   s.source           = { :git => 'https://github.com/Thunbu/TBIMLibrary.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0' 
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TBIM.framework/**/*'
+  # s.source_files = 'TBIM.framework/**/*'
   s.ios.vendored_frameworks = 'TBIM.framework'
   
   # s.resource_bundles = {

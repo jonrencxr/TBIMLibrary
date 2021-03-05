@@ -7,7 +7,7 @@
 //
 
 #import "TBAppDelegate.h"
-#import <SIMManager.h>
+#import <TBIM/SIMManager.h>
 
 @implementation TBAppDelegate
 

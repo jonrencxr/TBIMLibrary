@@ -15,7 +15,7 @@
 {
     // Override point for customization after application launch.
     [[SIMManager sharedInstance] login:nil succ:^(id  _Nonnull data) {
-
+        
     } fail:^(SIMError * _Nullable error) {
 
     }];

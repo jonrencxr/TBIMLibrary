@@ -31,13 +31,13 @@ TBIMLibrary is easy to use
   s.ios.deployment_target = '9.0' 
 
   s.source_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
-  s.vendored_frameworks = 'TBIMLibrary/Classes/TBIM.framework'
+  s.ios.vendored_frameworks = 'TBIMLibrary/Classes/TBIM.framework'
   
   # s.resource_bundles = {
   #   'TBIMLibrary' => ['TBIMLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*.h'
+  # s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'AFNetworking','4.0.1'

@@ -1,6 +1,6 @@
 {
   "name": "TBIMLibrary",
-  "version": "0.0.8",
+  "version": "0.0.13",
   "summary": "TBIMLibrary is easy to use",
   "description": "TBIMLibrary is easy to use",
   "homepage": "https://github.com/Thunbu/TBIMLibrary.git",
@@ -13,16 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Thunbu/TBIMLibrary.git",
-    "tag": "0.0.8"
+    "tag": "0.0.13"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": [
-    "TBIMLibrary/Classes/TBIM.framework/**/*",
-    "TBIMLibrary/Classes/TBIM.framework/TBIM"
-  ],
-  "vendored_frameworks": "TBIMLibrary/Classes/TBIM.framework",
+  "source_files": "TBIM.framework/**/*",
+  "ios": {
+    "vendored_frameworks": "TBIM.framework"
+  },
   "dependencies": {
     "AFNetworking": [
       "4.0.1"

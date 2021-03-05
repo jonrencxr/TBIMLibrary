@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBIMLibrary'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'TBIMLibrary is easy to use'
 
 # This description is used to generate tags and improve search results.
@@ -28,16 +28,16 @@ TBIMLibrary is easy to use
   s.source           = { :git => 'https://github.com/Thunbu/TBIMLibrary.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.0' 
 
   s.source_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
-#  s.vendored_frameworks = 'TBIMLibrary/Classes/TBIM.framework'
+  s.vendored_frameworks = 'TBIMLibrary/Classes/TBIM.framework'
   
   # s.resource_bundles = {
   #   'TBIMLibrary' => ['TBIMLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'AFNetworking','4.0.1'

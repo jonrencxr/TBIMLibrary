@@ -7,12 +7,18 @@
 //
 
 #import "TBAppDelegate.h"
+#import <SIMManager.h>
 
 @implementation TBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[SIMManager sharedInstance] login:nil succ:^(id  _Nonnull data) {
+
+    } fail:^(SIMError * _Nullable error) {
+
+    }];
     return YES;
 }
 

@@ -1,9 +1,9 @@
 {
   "name": "TBIMLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of TBIMLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/everyStudyNow/TBIMLibrary",
+  "version": "0.0.4",
+  "summary": "TBIMLibrary is easy to use",
+  "description": "TBIMLibrary is easy to use",
+  "homepage": "https://github.com/everyStudyNow/TBIMLibrary.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,27 @@
   },
   "source": {
     "git": "https://github.com/everyStudyNow/TBIMLibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TBIMLibrary/Classes/**/*"
+  "source_files": "TBIMLibrary/Classes/TBIM.framework/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "4.0.1"
+    ],
+    "YYModel": [
+
+    ],
+    "SocketRocket": [
+
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ],
+    "RealReachability": [
+      "~> 1.3.0"
+    ]
+  }
 }

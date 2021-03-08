@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Geely. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
+#import "AFNetworking/AFNetworking.h"
 #import "SIMHttpResponse.h"
 
 typedef NS_ENUM(NSUInteger, GLRequestSerializer) {

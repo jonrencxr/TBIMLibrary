@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2999B35CA405FB195AD54F546BF6BF /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 666CE45D36C658C2E433AD6C2A7DE0FF /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01591FDDCB1353BF600928BBF7BADF0A /* SSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 822FE0573E5DACA34AD32E81FC09E8D2 /* SSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02220360D4B5AEA925D1C04D2D18AD29 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD29B5F63DF7D9D1005BEB8613F1E50 /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
-		04E7739E707E3466BF5916AB8AC73B0B /* SSocketApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF59983B92AF04D44728E9A72CE8B16 /* SSocketApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02937F997F8F754C8960D8E0802CB884 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1E6EA55C1741DB24B4D7EBEA3ABA59 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03AFA0D0F097AF0398A24C2B12953B51 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 365D921E4769B578B7C994C4282078F8 /* YYClassInfo.m */; };
+		05434221AE334129286BE7C9D378B186 /* SIMDataResolved.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F24F48CF66F12DDD41E7EE257853A71 /* SIMDataResolved.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9F9691E6D1E21D7E5A2E98A53388B /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7FB951BD6AF790C78A1AAEB0D2F41 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		06724CC5375DD46735ADBF970266BADD /* SIMCustomNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 3315550ACD1F6A13A7D51711A4BE33E4 /* SIMCustomNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0620D450C328860FA6E98D8A5099FA65 /* SIMLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 670BD99095866B3C7F1A33E0CDB7C186 /* SIMLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CCF3E3B586FCF7C2F7432FD9CCF373 /* SIMMultiterminalLoginStateMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D8D6D4D4855B023F6D74C457069022 /* SIMMultiterminalLoginStateMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08610BEB632F2CD110079551EF432E8E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 3978164B37FC58EB587D2905D5998B29 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		08AEFF25BCA9DCCE51F76FD3CE8D3C74 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F8793422B973292AA7213FA0228890 /* UIImage+Compare.m */; };
 		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 832B9C6B5EF77B9D30B0CC2B369FC8C0 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,56 +25,58 @@
 		0D2BD0AD7784DFB0F9BC267C708CF75C /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F11979C3FBD4A03F4852626065C7D72 /* ReachStateWWAN.m */; };
 		0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F6B02DBF2BE175DE4C847B43D2BC5F /* AFImageDownloader.m */; };
 		0DE0AA588BC61692033B67CFCE4EC742 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9A21C19E4F56B992FC4F17496EDC6D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E00B94FF0225F762F58DD0AE4AC6038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
+		0E1F825B3F7D5DB203DE6184354A648F /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB709D2F004425838021FC233010D6 /* NSObject+YYModel.m */; };
+		0F1276716CC4DD864C4CC9063275D981 /* SIMBackOrForegroundMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED25698087D19FA4516B81A1A0741E /* SIMBackOrForegroundMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F200814CB7DB37FAB5CCB2DB5B61E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
 		114C2163DAE74196CAF6FA2E5FB633D7 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BE7BD4520EEB7D9FF4625723EF464F /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1180E99C881C964A3F0C1320285C522F /* SSocketHeartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = D0929F86BF5A008DDFBB212A2D579431 /* SSocketHeartbeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		120E665E9979FF968802071787DA8848 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BBE6789B14CEFE3C695ACAFE8AC782 /* FBSnapshotTestCase.framework */; };
 		12C14FE4834134BC916F8DD42B875D3B /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 730E0C64214F9BD296CA896D202441EC /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12EFAE8C36CE268193ABC1B5AD8AD57B /* SIMSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4299F191C4ADD61E8A87F0328D8675B4 /* SIMSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		136E801AD6BEF39FC98C559B016418DD /* SIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD0D450BD4070446A2141ADFDAE204F /* SIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134B15AFCD44FAECEF8ECC943A2A0C3B /* SIMCustomNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 099D7E4FE0D317DDD46234737669D616 /* SIMCustomNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		140394F97EEF0A95AB171649249F211C /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = F585DBB80495BE5005A54C27C9F015CA /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		151B8EA87EFEB966C78565829C8ED35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
 		15C0054801F96BA3329545B1FAA6A85E /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 135EAD4305055509E98BAAD3E428C9D5 /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 55456700115A98E104083411C4054687 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16DA2CEE38451000EC827BD80D6985AA /* SIMRecentMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 924514B5AC407FF2CB64E68678457A6C /* SIMRecentMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16F74C2473CB0A727500E61780E107FA /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE84536369169E2A651B733EA1ED184 /* ExpectaObject+FBSnapshotTest.m */; };
 		174662BC7190C044986FE2177DA452A5 /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = A122AB1157FCC4500A2B2C6DAF6E14B9 /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		17531BFFF85AE5C6DAFC9DDD685DC82D /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9DB6ABF2CB95041F0F333AD152C8B2 /* RealReachability.m */; };
 		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A54806324D7015E10D887E46E5CD8DCD /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		188A55E8570219DC971027460C2BCF1B /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFD6080E1050CD8518E0BF2BA2FABF /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		19621E59AF2C3772FF6290740DB6EAB4 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B8100346D0F78CA39F8F31B4444E4E /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1A3EDE2048DF3CF73E88C5A2D7771AC1 /* SIMHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFC1924B619BFD27FBACB8F9A19CD98 /* SIMHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A7B46C7E3217E400CC573C6D92F9693 /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3EED42042FED100817710E122027 /* Expecta+Snapshots-dummy.m */; };
-		1ABF1B61AE4838FB3294FAFBF13FE266 /* TBIM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D07FCFEE65F7F34D5BF265CF738B2A9 /* TBIM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE0436A918DE6705D1F2B647978467 /* MobileCoreServices.framework */; };
+		1AFCB433EFC090538BD6B55DD58E45F8 /* SIMCustomManmager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0779A54AE13853CAA68BDEDADCDBE365 /* SIMCustomManmager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4FFBD16B3640C58B2C67A4F2E4CE6B /* SIMListenerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC406762DB3D100FE4246D8757CAECC /* SIMListenerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CF5E91F1AE39E4CA72E7CB9DC066BC5 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5FA45CD1A81E1D14BCF12A2CE1BA03 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D7AE78CACFB39440A714C4EE59B4D8C /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 93199DC678807A216E93CCC26AEFF728 /* SpectaDSL.m */; };
 		1EDA4657EEF6B795B643063E05E8DC57 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52F7C12899E4F6468C2250A9742A07 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1EF95F62E0BE68EB31AE64FAA807E6E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01198C4A9A71D6513C30B22C3076E56 /* UIKit.framework */; };
-		1FA4E10DADBDCF3104A9614B8FA74CA9 /* SIMOfflineMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B9C7D07ECAA54B9CCC38517D4379B4 /* SIMOfflineMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFD86DC5D85BE8543D9BE896198769A /* SIMMultiterminalLoginStateMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2AF623E2F4D35D2CF9045831E490E6 /* SIMMultiterminalLoginStateMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20471DE376ACB94F0E144A26EFFCFD21 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21760C802FD7437AEE373629D9806C /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		20B5AC0AF41D39808A1B2CE1C278F2BA /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AFC6985D6AEB1282D62EF79A35CA8 /* UIApplication+StrictKeyWindow.m */; };
+		20FE92C3568A1696D1628F21419372A8 /* SIMDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5EE1D16164BD006DF86AEC95E4F3F4 /* SIMDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21581C6BEDDA82909847EFEE1E606234 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 321EA9645266A6ED8876A12D35CC3B01 /* YYModel-dummy.m */; };
 		23FDAD4F36A963F2AA4C0B9D8917AF9E /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC2104140D660F0D677FEFAF46025CD /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		242B10917FFE8781FF5762354A74A6CB /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F8D32BD972DD5B835DC46830714FCA /* PingFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		244D8552B11F2D1B417EBB82BBE9E938 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF1C8EE0C3BBB87DAF2ACEB68FCFF0 /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		25C2905BD04D69AB3CCA7BCC93D07AC7 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1AA0385AF23A3FD0EE40C08BFF7059 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F23E68E55462EBC24ABF2F2F131255 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = D948FE64AD2C65369CBD3423839BAF86 /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294AC74F8A8F734A08BD8CA64FA8D9FE /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BB6FBB5B35F572771591F9BE19737C /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29D443FB0FBEAA52986C0EC209746987 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3D8626EBDFE9E1C8A2A48C40E228CA /* SocketRocket.framework */; };
 		2A46DD69C90BDFA0AD55A31D0F16A78A /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC4585345E2DF2E628F39117B3E5699 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 198DF0DFBA296E5E9C9B5C488721D366 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D791542D3C9658EC33FDED0C3BF3486 /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A5849173C4245D7F6F1CB05881C852 /* RealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709B7728DCF3C57DE1815A46430AE70 /* AFAutoPurgingImageCache.m */; };
 		32762E6201C8909C32899F1EA489913B /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 707153C10CBB418854AFF4B1FB0590F4 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BE2A352C30A84337FD9F7328513020 /* SIMCallMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 412D849A939459CF6813B0F7EEF04C35 /* SIMCallMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3372164C22B301D4D5F1C9C7C6DDB25D /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FEC8D0A6ACDA16F9A4D0752B0F1C7A /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEFDF3A3801A7045DFE2CD581E5BE85 /* UIButton+AFNetworking.m */; };
 		34ADEF3BDFFDBC22229C55EB4A5E27A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
-		354523003689A191ECCC358D8E7E056B /* SIMGroupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6C4AD4E961DF77F8172239BCAC3B5E /* SIMGroupManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355E3D92F065ADBEED344EC3AB5247E3 /* SIMCallBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB23535449D2330D9DF9FA0C0761A07 /* SIMCallBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3681AC7A2C3E52B5F6514D1560E13191 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FEE37EE5E32C8CDDBDC34BB1B92CFC /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374C7F558C0AE999FF7ABE469A8839A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
+		36CD218406AE383A9AE8E42B1B14485E /* TBIM in Sources */ = {isa = PBXBuildFile; fileRef = EDB130B877038844412236968703A28C /* TBIM */; };
+		377127596855FF6BD1CA0B11CFC0951D /* SIMComm+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = 90668B2F0C3D6F6128769E2874FD2F00 /* SIMComm+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		387DE1EFED57833D913BAEC11E9F72AE /* Pods-TBIMLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 473089A367706FEFD1988996A9A50D37 /* Pods-TBIMLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A289C0550F25C9EDBF6A54BABC5A18 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6E66E05871CA7F897F9E2816CF0C76 /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39B3EB0C0C0893962F186D0B6D2E6C34 /* SIMNetReq+Login.h in Headers */ = {isa = PBXBuildFile; fileRef = 784DFE72F9BBE9741C6D12F8C6822622 /* SIMNetReq+Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39FB43C4884933D004F615F37EF37BF4 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B80AEA148630DB5B08720EA65D0511 /* SPTSpec.m */; };
 		39FF68F85E738AC76F427D6FAFF9DEF7 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 811E11B302CC0D0FED4E11C6C738750D /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0899591E15884BB738DD88168E7FE9 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,24 +86,25 @@
 		3C82DF7D14B5D458F82897BC730BDA55 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C0FB19AC81ABF5298EC9ADD408944 /* FBSnapshotTestCase-dummy.m */; };
 		3DB6607AA00EDF662D4328EA4F9C44EC /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA700C6BA1C92D3A32B56DC38D844ED /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A19544B488D7BC634A30313C765F48 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F61E50D19C84A35ADDC3669FA0884A8 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FF416C4FB6563B8490A90B6834AAFE31 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1CB10477BB28958C3B61A8CCB96358 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3D8626EBDFE9E1C8A2A48C40E228CA /* SocketRocket.framework */; };
 		416D3BE841B08CED03D16649957ECB10 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DA8ED13C9D2C55576B70EBE9F1A595 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41A757E1827853A2243EB9DD18AAC3EC /* Pods-TBIMLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B52D15982762864291CDBBE6445EB /* Pods-TBIMLibrary_Example-dummy.m */; };
 		41B490A5CB6565458F1F507A8AD0FB45 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FB1B9F0EB25F504C61E36F3F9D7CB0 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4246B59569EB3F71DE4DE01E7A7E5470 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CCBE4A8BD810618A1F6B6DEF9C86BF /* AFNetworking.framework */; };
-		42BB4F49DEC463B22672BE803CAF43E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
+		42A3FAD92FCDFF066DC4AA0FC8615BD4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D0565526E50C9BEB76320AA6C30ACD /* CoreFoundation.framework */; };
 		439D3ECDFB9D4E128FFE0D602E96DF5F /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C061144148B630224646006C768EC87C /* PingFoundation.m */; };
+		4474C980F331564D02613E12A66A00E6 /* TBIMLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 479188B4E2DBDE26764F6865D471FD9A /* TBIMLibrary-dummy.m */; };
+		457EC01C5F68790A52A374E73167A067 /* SIMCallManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F80F4EA0208F2486298F319BC11F77 /* SIMCallManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AAB26C20C5E550FBDFD3CF101F0154 /* CoreGraphics.framework */; };
+		45DDF1DE04A326848C5C848398780A9B /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = CDB7A5B37D78191E312B474A581CD23C /* CodeResources */; };
 		46ACAF12638940470981FA6689B0469F /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 682DE3123AEE621ECCD38EFB58591DD2 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		46CA7061C4E8A0BCB4C15F8417D51714 /* SIMFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D65AF1B55D6D3CF29335E9FEE19721 /* SIMFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8407908291811180FEB37D8F6A690F /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A03F7E68886AE6A13DFC35E9A9B942A /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4F76C1ACDCAF55BCBDCFCE2AAFB601 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BE573667194EBD2787E13650558A83E /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BC870EC242A06FD6103874C5C481D /* Expecta.framework */; };
-		4C1F430C4526BD0E673CDAB6D9E1AD66 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 1F99EE1A37106E5C68F1002D82CE6115 /* module.modulemap */; };
 		4C3BDCE083DC626A8C8757BBB1A03ADE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A7B957FFF8E2767FEC2F388089C1E7 /* XCTest.framework */; };
 		4CD00C2DDD1130268D57492C92768C2D /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 51674B592D2849CE0DD9C93E64F3E914 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D48EA2D9F127FF844FE61016D25DDE0 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F879F061E0396A1517A74506563B32 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DABC086BE7C1E8CEE71FC5EDFCD816A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2228834835ECCFEA736F5613A44145 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4DCA21B9AD36737E3AC8DAF3DA14ABA4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 365D921E4769B578B7C994C4282078F8 /* YYClassInfo.m */; };
 		4E7928EF9169E1DE84CBF429162A4128 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6376A36C74BE2E90FBD8D3E1C1718D /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4EA3C56AE53AD37BC0273D80017164F0 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF9B0681AF500C902A9456DD3360DDD /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EB2747D8F0843D0DF300990FEA1D19B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A7B957FFF8E2767FEC2F388089C1E7 /* XCTest.framework */; };
@@ -110,66 +115,72 @@
 		521CCD99D4003505D4B65A4131BAFB22 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5002241DE0F4CE65A04012D3F842B2B1 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5242CFE182637D4BCCAC9E0BCC4483C4 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E42390BC9FE10376A67D0D2DEA7C14CB /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52ABA9F68095F95B6996F484413484BE /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E051E6327DFAB9685E5C900C05CA1717 /* UIImage+Diff.m */; };
+		52BCE107BC8FFCD64C92ED10308FCBFC /* SIMNetStatusManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F316C2C7389529EE7A9A4E4362231631 /* SIMNetStatusManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56019F2A6A2688EFAC10551A065D3EA4 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3BF226648AC00EFF73F79554BD2846 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C26767BFDE17C1AA7F3BBE4D5DBAD2 /* SIMNetReq+IMFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D80DCFF59445F0BB4A23CA6400B5835 /* SIMNetReq+IMFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58ADCCE6F6658EB5FBFA9D85B8B0E1AF /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC0461F21FBBADF0547191C8EBEC77 /* SPTCallSite.m */; };
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E745F4F15C08D8DE5ADF925B405E2D /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = D95519D98D2F9D23B02532FA01547E82 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CA024FBAD5978DDD283C07CE41987E /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5F2422D956FDB468183532FE2CECBA3F /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9931C60B69BF5A2B9F85AA903583B /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F2FBC2BF8FDD5B5D3B5A08D5C99E5B1 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86409AD9ABA1D372FEDE0DB61EB85D95 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F892D7EF2EAAF1F00509D29F0FFE3FD /* SIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E63E0DF64C7DE3AA6D1C5B21661DD4 /* SIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		617E29740E951BF4F3E49D048F9A0E97 /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A08A165A07262D60729341BCF3B9251 /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61AF8D573ECF24C98CB6FE85F3CD5267 /* SIMCallManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB11FDB9698883BE58F30D78A48EB03B /* SIMCallManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61CA94EF2639807466427720DA2091C6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B727E2852B2F94A0D9F52526AE5D2 /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		62EEFC81BCD3649FA4954E6FD274839C /* RealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C718FA417C10F429A9B004215ABB07 /* RealReachability.framework */; };
+		6377A6B3DF0FE5AFEF42EE1AD000F471 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2A5E808D48A05C80091D0431DEE97 /* YYModel.framework */; };
 		660F79D9086A7962E1FFFA101802E8E0 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E42771A628EACDCC3002C06BA3D9EFB /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66ABBD694E306E452A0D3DB3972FA429 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5868F7E5F3452086C26957D4E87FD7DA /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68BF9933E4E96FD269BF6409F677BAF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A7B957FFF8E2767FEC2F388089C1E7 /* XCTest.framework */; };
 		6A8CFC224522711BF148E1E8C8CD7A87 /* Pods-TBIMLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616FEC1A0B6DEDDC24E85A5AAE3F0AA3 /* Pods-TBIMLibrary_Tests-dummy.m */; };
 		6B575D5C03624D5A253D6C128F3768DC /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EDE48021442820BBBB69FB97416FFD /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2FFEC0DE927C6B9C2FE248249A4B54 /* TBIM.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1223C20C4BD89AAC94F3BFA739A12A /* TBIM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DFA2A4ECED1F7E0310AB654FFBD2445 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA02D721E191ADC79BD94D5761A34A2 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE723C20E9F49B2BDFBAC16D9BA383 /* AFNetworkActivityIndicatorManager.m */; };
 		6E75B201CE8292900DD132FEDAF38B03 /* Pods-TBIMLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C50AABF75A2B03BDEB69AF43720A67A /* Pods-TBIMLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E8A45EF6CD46D90A634E1E9163E562E /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC97F4817054DCBC9ADC76BDFDCD1B7 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6EA5723EE33AEC18243C8B19F38D7FE2 /* SIMRecentMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C060F00FC5E03906DBED18094752733 /* SIMRecentMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9988E70EBE577F8F4D3F65CF30D7A6B2 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7053EEFF3D3EDFD31BF4841BCF67D330 /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2B12ACC6426B1C7DCADEC3A701D022 /* ReachState.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		70E91290A2C36004BB7177FE09A902A5 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 42948D798D04BEFD7E8B0B32B29DB30B /* XCTestCase+Specta.m */; };
 		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E401F011FB8A93B08EF4D936C1F817 /* SocketRocket-dummy.m */; };
 		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9851C367D24E23AB1CD49AE0952084E7 /* SRWebSocket.m */; };
+		760E1580A8D1BC6D449A636FC253DE9D /* SIMMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0C958AFD1BA027282EAABD5C2F7B3D /* SIMMessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F6232F01C0B224146DC8DBA4445FA /* AFSecurityPolicy.m */; };
 		7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544547BF4997C2C4084DB55F228D761 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		777DB2CAF42F78F06C61F9A4AA3AD09C /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AC30B2AF61FD1F5A84CC2F832AFC0FF0 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5995E15EB57105F5B150F9208704D /* AFHTTPSessionManager.m */; };
 		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AED289A30A39FE81E1D2493212C40CFF /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C4C85F0C8EDAEF021BC526B0B993E7 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3286B6C123D32972D41B9F26009790 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78F2D38D82089F4ED1D8AED266BBFE23 /* TBIMLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D418488DD62FAA288FB41FAB18302 /* TBIMLibrary-dummy.m */; };
+		78749F8ED49E385FB384C6DF190478E5 /* SIMNetReq+IMGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0C2B22542CC97BBD2FF7FCDC6A2051 /* SIMNetReq+IMGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		793EA178751F3FAD8592281457D8B4E7 /* RealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C718FA417C10F429A9B004215ABB07 /* RealReachability.framework */; };
 		7967AB2E31F5D064244EB23735D0B3E8 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6839B08B3CBF84FC329EC8D09CEACD /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7A6DD687A80CF29C06CC8E9E53AC94BD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C78D1005240B9E0F57B919CDDCE08390 /* UIImage+Snapshot.m */; };
+		7AB14E1B300CCE4F4DD95397C17C3747 /* SIMSNSChangeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EC10C701E39866FA40FC07FE3B3EAFBE /* SIMSNSChangeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEA742294A541EDFC022BCB6B4F4210 /* SIMNetReq.h in Headers */ = {isa = PBXBuildFile; fileRef = E3722CC97518D66FD5BDD7EA3CDC2E17 /* SIMNetReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E17C2B7C2A0FB6BE9F797C0701848B6 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D548BA82B7FAE0254316D539154E94 /* FBSnapshotTestCasePlatform.m */; };
 		7E571804E4D35B42499B8BA3E59A9AA0 /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F35E964FAE44EF06B091195820775F /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F0FCE6EC0F84499AFE492536AA0202F /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2A5E808D48A05C80091D0431DEE97 /* YYModel.framework */; };
 		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ED2A235ED4F3D32D2462A8B11B15FF /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8060179A1B9B415758DBA86F66641E3F /* SIMBackOrForegroundMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F9EDD3596695EA00098820EDC77590 /* SIMBackOrForegroundMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81191784FA7C20A17F29F7B4F068C5E2 /* SIMCallBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5F008B35FA32A984A542A8E212039E /* SIMCallBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F7CB65BE1D33EB7B5B6C5655C9153D7 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = A41D671756472714E3656D3674FF7053 /* module.modulemap */; };
 		821F025A006CB157497E83C0EC102052 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFD318BCB5F167FCCC1ED8774B3E65E /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		829797BDC402E48EC220FE396C7F2CB8 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1326CAA4E56D010ECCC751C57C8F /* FSMStateUtil.m */; };
-		835D61A92B4506C4E21F249C6DAD2610 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 321EA9645266A6ED8876A12D35CC3B01 /* YYModel-dummy.m */; };
 		8479152A46904EEB3F1E1F7BB135A14F /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C34DEED6A04FA7B4BAFB43F926CB25 /* EXPMatchers+FBSnapshotTest.m */; };
 		85612F34E79CC3D1821B1C8F07E75BA6 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F00B0A1D71A47EE9D9197A930B0A7B7 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA38C5F8684A8BAAD73947822CE6B /* AFURLSessionManager.m */; };
+		8618D8D81140C4C39476A64ABE135E90 /* SIMNetReq+AddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F6A3D4CE6B15A3EC68F62B1C951512 /* SIMNetReq+AddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFCE31EDB6D6F14E7AD7669C717AD97 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		873165886F20870B205EBE37F8185546 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D28E9D557E8885965A750DE6F373382 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A578C028C3D83876927FC88F01A6791 /* SIMLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16AF2931A0D65D70CAEFE73A2862E125 /* SIMLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A89172D49657C02C4C7F333D70B489B /* SIMNetReq+IMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 036A67FC6C52A1F2154A2422BB42EB7E /* SIMNetReq+IMUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87D8FF9EDF2134DE83C97CB8EBF2A71B /* SSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C55BDAFE9A4EB66D956914AE271633AA /* SSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B8CB2F1361DD1EA4711D54F596569F4 /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1DFFAF6459035BEC25B8AE80FE4DD2 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BDF51F77E78B6B82EF449B7B32F93EF /* SIMComm+Control.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF23FBD42A19BAE2C1520C813527BF2 /* SIMComm+Control.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C7E113083CC3FBF9FD1CE503BAD7F55 /* SIMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D334EB0A02D2225586A6A086B72EADC7 /* SIMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D20418AEDA0213FD3E324F26FA60FEB /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B0EC61D345DD4DD389A13CE885AE1E /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D6C0DFFA10DFB74D75A8CF5105EB28D /* SIMNetReq+AddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 670838F68570FA95FFA877BED57C422A /* SIMNetReq+AddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EC3EB572DC074DC02A5137F4BF5D98C /* SIMComm+Session.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FCACC7795EA5410804073F18577B22 /* SIMComm+Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D27BB892F156B8C21776760CB4479BD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CCBE4A8BD810618A1F6B6DEF9C86BF /* AFNetworking.framework */; };
 		8EFC96CD8062F7EEE6E361A23021F7FE /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DA17EFB32F7D13E3E41C6A160B821D /* RealReachability-dummy.m */; };
 		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E41137C27FB58B207E72E62A456EAC /* UIActivityIndicatorView+AFNetworking.m */; };
-		9159F51301FFEA3772F672ED98E6F63B /* SIMNetReq+IMGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CBAA25DECFAC8591BE324D16989428 /* SIMNetReq+IMGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9197B1917CC94F46B7ECF956F9E42AAC /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = F80F4E686F9E1B4E1409B82D9DDE938D /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CB8FABA4A125F1982570BDF7EF35EB /* SIMSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBA4B4CF70BB34FA0F3421B442A5C15 /* SIMSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F08081D0286CC0733C2D5A9B4A8F32 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C7104759C2631D0C1D9781E894468 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		92A9988F3958301C165CFCB3D3FA3D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
-		9354914D0BD581090BF294892DB1DA33 /* SIMNetReq.h in Headers */ = {isa = PBXBuildFile; fileRef = E31E963298AA772DAD39354D93FDBBA3 /* SIMNetReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9501262D83639D5412AC3A86F528B63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
 		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF380DDA9BAD5C74DB07BB9AB1C7ABC8 /* AFNetworkReachabilityManager.m */; };
 		968775B82E6D6DD7CABE9F86A3C74958 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB2B50F1CDC884E165EFEAA6EBFFDCF /* LocalConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -178,27 +189,27 @@
 		977BD454FD0B41882EF4D5C7E3A2B485 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C5DD9DD9E61C69B86DDE7FC9834591 /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 629BF2BBCBD74F1B141EE7846FF87CBC /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99BDD046376D0016A3A4956B9CB22F /* UIProgressView+AFNetworking.m */; };
+		982F54DB0841D64FEF8469BDA861CCDD /* SIMNetReq+Login.h in Headers */ = {isa = PBXBuildFile; fileRef = 56418C8F174FD33BBFEBD47642E78A0E /* SIMNetReq+Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B7C2AD164A513973D5A57A4D84EBC0 /* SIMBaseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3302859886086C38E2685A45FF5378DA /* SIMBaseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D4559627EDDD523820519CBF28CF53 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FE8613B266C06B5683B430DDDC3496 /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98DA7D76AAA35F696F5F8BE40CE45D57 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7E4F19369C05EDA1CF63FD46B6D91 /* FBSnapshotTestCase.m */; };
-		9A8397E35887DC7B863047F4E36232ED /* SIMNetReq+IMFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = E54F3298E67DEC04ACDD917ED5A4C02D /* SIMNetReq+IMFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A971E20882E663DE2881FA15F62C552 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 836C49BA69B27E6EC7767F3DE86CE939 /* SPTSharedExampleGroups.m */; };
 		9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF2922806450DF2C55D9A7EE58418C /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9AF1B4F204D8086B6843419959B49D3B /* RealReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CC9E1F7CE20DDE0B83992E45138880 /* RealReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBA3A7B7F3780D862331AE1E204E215 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C301FE971C38FCBD9995F726F0111 /* SIMListenerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D2858A5B29D7844EAAF4D0A5F7BB03 /* SIMListenerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC5C4C51E72F42E5436857D8AD870B2 /* SIMComm+Session.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9A9AD013B9B9047EE99603A42D998D /* SIMComm+Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D35929A394CE07C6C8EA721EAD10EF5 /* SSocketHeartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD2DAD315A041055455B5073D40378F /* SSocketHeartbeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC7FB440B310D3BD9776424402CF621 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E3E103BA7ACFE14DAF4812C9B4922DC /* SIMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE61CB4D428CBD9DFE054CA4AD8C1CC /* SIMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EB7CF819646DC6C3DF2EC9DB9B51DC5 /* SIMFriendShipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E124F6099759F32371B39E0472539A96 /* SIMFriendShipManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F8266E6A6BA92A1C007B0411F70417B /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAA408D7C91CE40016F481A40F3C72 /* PingHelper.m */; };
 		9FA92269C76E56CD70FB8C0AB47AD16D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 801092679E7280EC0038F09020AF7C8E /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FB558C12CC98F95A448699D80E54CA /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A42104E32B1BC22C29B5C580E718A /* SwiftSupport.swift */; };
-		A52588EF97A0B6FCD78CB07E8B2B5BA8 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86409AD9ABA1D372FEDE0DB61EB85D95 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1973E15D78803A527682D71C3F85A14 /* SIMTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D09B2F02840C1F182E96F5CA852B53EE /* SIMTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A588E32674FB617E093D50541594254F /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F89DBE41E1AEC27C3550688967133 /* ReachStateUnloaded.m */; };
 		A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDDFFA82A5F71938354FBEBA15A73 /* AFURLResponseSerialization.m */; };
 		A6A49734BE2CA7A10109D9A0F6E79AAA /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD3518A933BC864AC5E8369A8256EFA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB52153E927026BF639FDC64CC3A1CD /* Security.framework */; };
-		A76E926E177064EC686686993F428BA5 /* SIMDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D761306B6B49F4A4CE1725DCCF35A3E /* SIMDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A897879F760B96D6C2884C147F0E6474 /* TBIM in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4A234869EDB6546E6CA48C5F1EF72 /* TBIM */; };
+		A87DDFC53489D817BB2286A8F436460D /* SIMComm+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = E043490543C61E7F381C19FEBC639146 /* SIMComm+Group.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90D7152A9FCC2C19AF4D680045A2A60 /* SSocketApi.h in Headers */ = {isa = PBXBuildFile; fileRef = FB60AD92D0FF955DBF69F7626256CECE /* SSocketApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A93BD560DD062BA5B515267570761CBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB52153E927026BF639FDC64CC3A1CD /* Security.framework */; };
 		A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E52C3160DB0C82754DD24D03675DCC6 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C08A6F1EEE3D0E9AD745C27C7889411 /* CFNetwork.framework */; };
@@ -208,8 +219,8 @@
 		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 097245BB6BB100B2169C043E4C87D23A /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6147084E65283B89195E362DEEBDF /* UIImageView+AFNetworking.m */; };
 		AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
-		B0606EA3A9D3F4330F2D78652EE016A3 /* SIMError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE28D629783B3AFBB75311B9C30809F /* SIMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B14D9027AB1192974F7DEB48CB0AA8B1 /* TBIMLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F39DDD710BB139E2C5B0EF63536A47 /* TBIMLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FC51BF2B28B46B7B664BC907770BFB /* SIMNetReq+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 96ECC3113496FFEE582B09AB8B7CD2CF /* SIMNetReq+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B248701202E8517918B5C76A033F8C2E /* SIMNetReq+IMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE20EB4CC0135B6CA5770F82EAD470F /* SIMNetReq+IMSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B24C0951E730C8D7B6539598555A0126 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C61AF700D13910E09AEF556E919B9D5 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E930F6C9AE6D09D08787B4307425AC27 /* SystemConfiguration.framework */; };
 		B2B5271CE555182511BFDAA78A16085D /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6D30AB3F11E3A13D908FF0661DE3E /* SPTExample.m */; };
@@ -217,46 +228,42 @@
 		B3456664FB823F246FC18A8A1DCE6753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
 		B383AEAFE8EEFEF3B9C548C37F9432AE /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793BAE0EDE9B547346A1C34D5CAAAF0 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B38580574409CAC6FA1C8F3E3671E1C3 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF47A73A292574FCF1613A0A2F96203 /* FSMEngine.m */; };
-		B3F514B7B9A34437AA1BF64833C42CC5 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AE730D031683076A233A3B589F5EBD36 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5596C58EE23B7C7BCE850A4C6679F1C /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 730C999AA076815914A151F3381D3A41 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B48E86354E06675633D7D3E65E6091C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B628F2BB909FBE9D533C0C6D382BAA9E /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BE27FA6D370BA4D0E8F79AE84AB8F /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B67817D27777B73C77D08A312939D60C /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = 9749455B6F13AEB4DEC1BF9A9D369588 /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B7F640914D7BEBB169B7B58116C3B41B /* SIMBaseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E451695C3AD8E9CE8BDACCC52DC43AB /* SIMBaseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8F3DAB4575DE704C33DC90B136E8749 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = E385449662FB3B602A1C56CA53607C35 /* SPTTestSuite.m */; };
 		B999DEBC999F335CC8E6C471F942F93D /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = F8494444C3C865E161282DBE3B84EE0E /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BA31684785B14656B618CFC838C5FD97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
-		BD89CFE244E0FE16DC6AAC4D1A6BE804 /* SIMComm+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CF2713DE79671117BDD16A59749FFA /* SIMComm+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE5B4FB53D487545C333B43A81B06B1D /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1E6EA55C1741DB24B4D7EBEA3ABA59 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA5D0EACE87D186FCAF680C868F32FBB /* SIMError.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC2B27DFC4888BEBF9C2E8ACF5B6592 /* SIMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB27546217D02CF1394ED4A3AA9A13B4 /* SIMNetReq+IMChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE1F97A640CECBE0E3774876B45E16A /* SIMNetReq+IMChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07A727FD55348113E98AC6A192C872D /* SIMGroupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FED5ACA12F9BFDA375314F85A3C64514 /* SIMGroupManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C157A374BDFD95329C340B5840AAFAE5 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2683993FA62CAECCAC4C6342F95476 /* SpectaUtility.m */; };
 		C18FBD6CD221CAFD1AF15CC99A48CB84 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 971BDB4AA63B9171AF075904A125D4EF /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21852EA0F5BED0F4235D5F8E976FA09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A7B957FFF8E2767FEC2F388089C1E7 /* XCTest.framework */; };
-		C38FB82B5E3B770464ACBC73138807E2 /* SIMMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD32F0E72E45FB3FD0560B9E195121C2 /* SIMMessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C431F4A8098F3F8FEED02C58EB2704E8 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7388C0A149E329D75E753CCAF2A733D1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4632B64DD0F3ADB3BB829A6EBC322E6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1728C2B080581C9AEE0D4436F656B43C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C59C163A3355658FF1167356B6D08F5D /* SIMComm+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 25246D16A896FA65A21FD373B6893593 /* SIMComm+Group.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7CFAF078BD1FB369B39B814203DAC3F /* SIMSNSChangeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 813B7D531AE7436DBC3038D3CC9F2EFD /* SIMSNSChangeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7D8726DFF2A8EE5DA3D31A46F4C66DA /* SIMNetReq+IMChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B4EF798B635E705EA887AAA39D2628 /* SIMNetReq+IMChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C81C4B0915383641825502CF27FE4C13 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D0565526E50C9BEB76320AA6C30ACD /* CoreFoundation.framework */; };
+		C4FFF05E61813AF2DD9E6CE30A65E325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */; };
 		C87D56EC372F2E9FC31575D3A7A22EF9 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FD18F34A03DF166DB82BA100D6721BC1 /* ReachStateLoading.m */; };
-		C9F65BD31D2242E2FB353B9898EF4551 /* SIMComm+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EB8A8D96BF88594AA9E16D89AF92A3 /* SIMComm+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98591DDF47C623199439110D8AB0E39 /* SIMFriendShipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3706DB8DDEB9F9645A45F0436646BF7D /* SIMFriendShipManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA004C816B835986CB7FD1AF44E0DFD1 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = DE97847078B449526266E7266F463C02 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA17B8E5FFF13F7681D42AF5D6F1F1B0 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A6686C9FF3485D7CD6ADB53C3E23D /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6FF0D57C5BED892573FE5B03AB0A4C /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF3015134E75CD0FED806F7AB2AC9036 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B2FA0158748243B52115E2D1DAF5FD /* ReachState.m */; };
-		CF334A00814F474CFFCBCABA65A871C7 /* SIMHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A04DF82E7C04E9752F24D4553D0A517A /* SIMHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0E311E43FFDA4F6971C8CE3409CA565 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 5287A336171551A17C52A0FCBFB5F9AC /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D14E22F81467790684486F55863141A0 /* SIMOfflineMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 459D0837A7A1A5FAC9E461135CB559F2 /* SIMOfflineMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E39749E33F540BAA1B29F6887620E7 /* UIRefreshControl+AFNetworking.m */; };
 		D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F76CF9A32E90E6FE7232FFF107DACD /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D52E623B86C8BA16C319A115C5F9652B /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD361E07046384602DFF7C1990763DA /* ReachStateWIFI.m */; };
+		D56605B226BF23D79BBE91959367DF2F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AD6355EECAA6218C1E7E0115439995F5 /* Info.plist */; };
 		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD001E38A02D4B0D5D2019410FDA27E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B82EDE10F3E8963AFC05B31E128CAEE9 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8256E5DBCF754CA0E945B53E256DF16 /* SIMNetReq+IMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5ABC82D3D5EDBBE75C2530E87B5BEC /* SIMNetReq+IMSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAFD0D881AD04EDFB3792222F6CDD220 /* SIMCustomManmager.h in Headers */ = {isa = PBXBuildFile; fileRef = 854C1FC0ABBCE31019EEB2ED46EBFFA1 /* SIMCustomManmager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71AFBB27AE659E4E9659C4B66B08F67 /* SIMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 758CBEF6979183CF6684F691AB392D64 /* SIMSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3E06183A8F0FA804133C8D0A029994 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC20DF8F0B9AD32E956D1DE4D7054CD9 /* SIMComm+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD4EDF211CE8517B28E60B07566B043 /* SIMComm+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE7D19BFC37CD645339408D20D343D /* UIWebView+AFNetworking.m */; };
+		DCFE742A29EFD93A80A0FD972BC08040 /* SIMNetReq+IMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE128FA1F167F31960C01B6BAAF4661 /* SIMNetReq+IMUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD29F678D007BF9664244B823433B858 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D2840A82BD15626E1BF0A45AEF73F3 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE4A9321CEA9D0276F574CC636E7DB26 /* SIMFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = DACFD6367B853FBB1AD5053727CD92B2 /* SIMFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB75C362C4BCC5831F763387C76849AB /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E113C4EBD076B223570A31327C783E8A /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E73CC42A4F7B0A89A96B13CF7EFEF65 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22310BC39B01D76C259A769C460AEDBB /* AFURLRequestSerialization.m */; };
@@ -264,35 +271,30 @@
 		E2058F4A0E7638E420DE96F8DC17AAA9 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D741D598B6CD3FCCE6B50FA97BB8A0B /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC10693D51DB18483A6610484C9225B /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E35B6FF7065EC19DA8E7E2B849475FFD /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 115279C6FDCE224A7608DCD4FAAB74B2 /* LocalConnection.m */; };
-		E3B2542337A0BBD555EBB581D024D0FE /* SIMNetStatusManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD36E2A7CC876B70B114DF2937D01684 /* SIMNetStatusManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3F32F2039DC5E4726FF43D46DE2544B /* SIMSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 833E9B5C7AB0F524A2C5BDE27C6C1FE4 /* SIMSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4C038B3DEC269BBA82B94C9B96AD17C /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BA05CC892601691F0B90CDD4B45F78 /* ReachStateUnReachable.m */; };
 		E76AF00320AF5B48404A6DB907F9CBCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A86C864E7485F7A42BE110C786B266 /* QuartzCore.framework */; };
 		E791EEB9E7DA8C5DBDFF80A2BA7A6A4F /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = F27B7908360DEE642E17381B4B9A669B /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CDD918EF87CE20472A1745FD73477E /* SIMComm.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DB5D6083EB6783EC8F4D124D3223BA /* SIMComm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E969F8D679A40C630D2E855651A49D90 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = 244BA51FE879DB6C97098BADEFF50F38 /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB069F269F5574F1F33F1E577CACB14C /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 15455C4AEEAF954DEDF35C8ABAF23CA3 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC28F75182656C1E415B98D87FAFB31D /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = 857F9BCA25513ED5DB151119EB6BE593 /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC57F974317D76B799CFE2A018B5F9E2 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EA0AE84A5D6059CE14CC5616F7D14C /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		EF9D5F835777BDA74C94522E6F2425CB /* SIMCallMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB8CDE13D87C0F33CF892C2DB58A874 /* SIMCallMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFEE0CA67BDA8D1262278A217868C3DF /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA8373E3FCFBCBB947E3432ECB5CFC /* Specta-dummy.m */; };
 		F09FCB8DAF0FF5CDCAF6AE872142922E /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8105175768D1748B76F3BB442D229E7 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F116C8ABE9A02F5D87080EAB65563F09 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFCF891CAC8739FFEA8F71C38E5FE3 /* FBSnapshotTestController.m */; };
 		F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B449CB04B56DAE615F5E132E9EA824 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1F749046411D439AE3DD4E9985F4E2D /* SIMComm.h in Headers */ = {isa = PBXBuildFile; fileRef = 08024759A2DF72F52D32977CA996EC59 /* SIMComm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2566F39C93EC0956BDA9942BEECD6D5 /* SIMNetReq+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D68488626B2EF1E5F145AEA825E828 /* SIMNetReq+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2869D03AF1E8DE5D774DD04BBA2DFCF /* SIMComm+Control.h in Headers */ = {isa = PBXBuildFile; fileRef = 382E9E76FD2904BBBB4D195C13D68445 /* SIMComm+Control.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F31CCBB90D75D9E5A83545FD95954FFA /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4D5ACDB18E317B9120A0027A659AA /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FE5C952C86F2C7C8405BCC91A68A78 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D77232F67164051CB3A3C9BFB53BF9A1 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E5352F88A7D6B102D911A8597D5601E2 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4F8BAEA1C2B92CD3CE72DA5019E3D6E /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2B629CFE8412D99B3C7CC0F2B13540 /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 873FB47C6C024D45BBC130A350CC010E /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F55BCC98237636094A454DDB66187881 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB709D2F004425838021FC233010D6 /* NSObject+YYModel.m */; };
-		F6A3D8E3AC2A41E5CA53A4B2D83AE00F /* SIMTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B363740E886820723F20B0716633A1A /* SIMTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F76B9ACF84F5E57B80C870340BED3163 /* SIMDataResolved.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA6D5FE8A0792AE10B9D71BAFAA4D24 /* SIMDataResolved.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8339E372B502F4C69E8FCF82DC0D910 /* TBIMLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8E25B1841531859E197D5D106310C4 /* TBIMLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9C67DB34D81F8F3BC1F190922294FB3 /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAB6D761A16D47FEE0AE2AD96DE7EA0 /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB41542E15E543B3B7B7EA66F5C1A3A6 /* SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEAD20F78B3E363197808C45BC235CC /* SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBBF7C289EC276E3F9552AEA186EF212 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AE730D031683076A233A3B589F5EBD36 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5C3FBE0E787A0ADB2640BAA5CFF72D /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1088CE97419FBD1906E447E1DB73E9 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FF416C4FB6563B8490A90B6834AAFE31 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7262D24E73E5ABC2B626C46647DE6F /* SIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6E105F9F5BFA03EE6A826438CDCD3E /* SIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -303,19 +305,19 @@
 			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
 			remoteInfo = Expecta;
 		};
-		0CD08D64B3E1D058E7573056593F32C8 /* PBXContainerItemProxy */ = {
+		1B3F9AD19BD0BD95CE7A6E7CD782BABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		2F2885C31916A25B9D842498C396AA79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
 			remoteInfo = SocketRocket;
-		};
-		1CBB103ACC4984587196711727A81754 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
 		};
 		325810C22C52E5FFC93AE84A95B137EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -331,12 +333,12 @@
 			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
 			remoteInfo = RealReachability;
 		};
-		455D6452765D378A5149ADE690FB3D54 /* PBXContainerItemProxy */ = {
+		4655BE0CEBDFF67BBC98A47D5D7A2926 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
-			remoteInfo = RealReachability;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
 		};
 		4DF66AAB25F40ECBA4F73504AF636F63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -380,19 +382,19 @@
 			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
 			remoteInfo = Specta;
 		};
-		8CA5C210B1317473B7ED4602378859A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
 		95078ACD34515E1E992A9958E058B6C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
 			remoteInfo = Specta;
+		};
+		B2998FFB04109FA348FF87B2E55D9711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D877AA5CCB5772505261462171EF8A75;
+			remoteInfo = RealReachability;
 		};
 		B7A7E020A4C71081B4589B125FBF1364 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -421,20 +423,22 @@
 		00510A7A5FADAD48CC198BFEDDCF844B /* Pods-TBIMLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIMLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		00EA0AE84A5D6059CE14CC5616F7D14C /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		01CA024FBAD5978DDD283C07CE41987E /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
-		036A67FC6C52A1F2154A2422BB42EB7E /* SIMNetReq+IMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMUser.h"; sourceTree = "<group>"; };
 		03D84E038F812906316E21A3116A861B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		03F76CF9A32E90E6FE7232FFF107DACD /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		05CE9C2D1D1738D64A2CBF807A15E8D5 /* Pods_TBIMLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBIMLibrary_Example.framework; path = "Pods-TBIMLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0779A54AE13853CAA68BDEDADCDBE365 /* SIMCustomManmager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCustomManmager.h; sourceTree = "<group>"; };
 		07CADCAE250AA6BD82D4931796374D7F /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
-		08024759A2DF72F52D32977CA996EC59 /* SIMComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMComm.h; sourceTree = "<group>"; };
 		08521005D098578E0CA2A71289212DBD /* Pods-TBIMLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIMLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		097245BB6BB100B2169C043E4C87D23A /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		099D7E4FE0D317DDD46234737669D616 /* SIMCustomNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCustomNotification.h; sourceTree = "<group>"; };
 		09B10814B5899B5B88DF540C78394E7B /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
-		0A5ABC82D3D5EDBBE75C2530E87B5BEC /* SIMNetReq+IMSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMSession.h"; sourceTree = "<group>"; };
+		09ED25698087D19FA4516B81A1A0741E /* SIMBackOrForegroundMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMBackOrForegroundMessage.h; sourceTree = "<group>"; };
 		0AFCE31EDB6D6F14E7AD7669C717AD97 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		0BAFC5541DAC5F21C8E210A07F9CBF81 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
+		0C060F00FC5E03906DBED18094752733 /* SIMRecentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMRecentMessage.h; sourceTree = "<group>"; };
 		0C50AABF75A2B03BDEB69AF43720A67A /* Pods-TBIMLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIMLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0C9677F6A391BABF03084EAD6DCF0CA2 /* TBIMLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBIMLibrary.xcconfig; sourceTree = "<group>"; };
 		0E18C0451A973CD10A812BB3AD55AE1C /* Pods-TBIMLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIMLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0E2B629CFE8412D99B3C7CC0F2B13540 /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		0E73CC42A4F7B0A89A96B13CF7EFEF65 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
@@ -448,53 +452,48 @@
 		149F819055AD8A782437ACA3D153819F /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
 		15455C4AEEAF954DEDF35C8ABAF23CA3 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16AF2931A0D65D70CAEFE73A2862E125 /* SIMLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMLogManager.h; sourceTree = "<group>"; };
 		16B3F258D87404B0708C8AB55E43B706 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		17179507BFAD75AF8BD7159312358F83 /* RealReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RealReachability.modulemap; sourceTree = "<group>"; };
 		1728C2B080581C9AEE0D4436F656B43C /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
-		18D68488626B2EF1E5F145AEA825E828 /* SIMNetReq+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+Common.h"; sourceTree = "<group>"; };
 		18DA1326CAA4E56D010ECCC751C57C8F /* FSMStateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMStateUtil.m; path = RealReachability/FSM/FSMStateUtil.m; sourceTree = "<group>"; };
+		19199FE2CD908752216C67165C515483 /* TBIMLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBIMLibrary-prefix.pch"; sourceTree = "<group>"; };
 		198DF0DFBA296E5E9C9B5C488721D366 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		1C08A6F1EEE3D0E9AD745C27C7889411 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		1C3D930767D5B6CCB4407038FEFC4B37 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		1CE20EB4CC0135B6CA5770F82EAD470F /* SIMNetReq+IMSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMSession.h"; sourceTree = "<group>"; };
 		1D741D598B6CD3FCCE6B50FA97BB8A0B /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		1DC9931C60B69BF5A2B9F85AA903583B /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
 		1E5C3FBE0E787A0ADB2640BAA5CFF72D /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
-		1F99EE1A37106E5C68F1002D82CE6115 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		1E5EE1D16164BD006DF86AEC95E4F3F4 /* SIMDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMDeviceManager.h; sourceTree = "<group>"; };
+		1F1039A49451F76E869E60F3DA69EF87 /* TBIMLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBIMLibrary.modulemap; sourceTree = "<group>"; };
+		1F19EF219C6882AB2B27A219DF088973 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1FFA8373E3FCFBCBB947E3432ECB5CFC /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22310BC39B01D76C259A769C460AEDBB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		22A5849173C4245D7F6F1CB05881C852 /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealReachability.h; path = RealReachability/RealReachability.h; sourceTree = "<group>"; };
 		22DC3EED42042FED100817710E122027 /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
 		244BA51FE879DB6C97098BADEFF50F38 /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		25246D16A896FA65A21FD373B6893593 /* SIMComm+Group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Group.h"; sourceTree = "<group>"; };
 		2566621D0EF487F3E1D0B468EFD84D1F /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		261D418488DD62FAA288FB41FAB18302 /* TBIMLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBIMLibrary-dummy.m"; sourceTree = "<group>"; };
 		2620CA9A9D4E5F87C9B407A5DD1E631E /* Pods-TBIMLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBIMLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26B4EF798B635E705EA887AAA39D2628 /* SIMNetReq+IMChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMChat.h"; sourceTree = "<group>"; };
 		26FE5C952C86F2C7C8405BCC91A68A78 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		2906B059FDE821F912DFEE11ED1935A1 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
-		29FCACC7795EA5410804073F18577B22 /* SIMComm+Session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Session.h"; sourceTree = "<group>"; };
+		2A0C958AFD1BA027282EAABD5C2F7B3D /* SIMMessageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMMessageManager.h; sourceTree = "<group>"; };
 		2B21760C802FD7437AEE373629D9806C /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
-		2CB8CDE13D87C0F33CF892C2DB58A874 /* SIMCallMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCallMessage.h; sourceTree = "<group>"; };
 		2CDF1C8EE0C3BBB87DAF2ACEB68FCFF0 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		2D02F4082B88F0D0D7351C706B7F6DA8 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
-		2DF59983B92AF04D44728E9A72CE8B16 /* SSocketApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSocketApi.h; sourceTree = "<group>"; };
+		2DC2B27DFC4888BEBF9C2E8ACF5B6592 /* SIMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMError.h; sourceTree = "<group>"; };
 		2EBB709D2F004425838021FC233010D6 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
-		2F5F008B35FA32A984A542A8E212039E /* SIMCallBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCallBack.h; sourceTree = "<group>"; };
 		2F9A21C19E4F56B992FC4F17496EDC6D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		2FB0CAC2221147DD5CD9697354AA457E /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		305D70FCA010AB529A12F385322F3070 /* TBIMLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBIMLibrary.xcconfig; sourceTree = "<group>"; };
 		30C718FA417C10F429A9B004215ABB07 /* RealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		321EA9645266A6ED8876A12D35CC3B01 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
-		3315550ACD1F6A13A7D51711A4BE33E4 /* SIMCustomNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCustomNotification.h; sourceTree = "<group>"; };
-		3417A1602A73381C37879BB8A275D244 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		34EB8A8D96BF88594AA9E16D89AF92A3 /* SIMComm+Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Message.h"; sourceTree = "<group>"; };
+		3302859886086C38E2685A45FF5378DA /* SIMBaseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMBaseMessage.h; sourceTree = "<group>"; };
 		365D921E4769B578B7C994C4282078F8 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		36BA05CC892601691F0B90CDD4B45F78 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
-		382E9E76FD2904BBBB4D195C13D68445 /* SIMComm+Control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Control.h"; sourceTree = "<group>"; };
+		3706DB8DDEB9F9645A45F0436646BF7D /* SIMFriendShipManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMFriendShipManager.h; sourceTree = "<group>"; };
 		3978164B37FC58EB587D2905D5998B29 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		39DC0461F21FBBADF0547191C8EBEC77 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
+		3AFC1924B619BFD27FBACB8F9A19CD98 /* SIMHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMHttpResponse.h; sourceTree = "<group>"; };
 		3B9A4649DD5E14247D1C6E7A652DB95D /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		3BEE723C20E9F49B2BDFBAC16D9BA383 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		3CD2A70E393F10A355B6D714774CCE6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -508,34 +507,34 @@
 		3FE1C7AFCC90541D0BB73B0AE26F1AFE /* Pods_TBIMLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBIMLibrary_Tests.framework; path = "Pods-TBIMLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF27399B038A0392F1E032435F3B979 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		40DA17EFB32F7D13E3E41C6A160B821D /* RealReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealReachability-dummy.m"; sourceTree = "<group>"; };
+		412D849A939459CF6813B0F7EEF04C35 /* SIMCallMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCallMessage.h; sourceTree = "<group>"; };
 		42948D798D04BEFD7E8B0B32B29DB30B /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
-		4299F191C4ADD61E8A87F0328D8675B4 /* SIMSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMSessionManager.h; sourceTree = "<group>"; };
+		459D0837A7A1A5FAC9E461135CB559F2 /* SIMOfflineMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMOfflineMessage.h; sourceTree = "<group>"; };
+		4618DF4E7C58EF6857254305A4B41FC5 /* TBIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBIM.framework; sourceTree = "<group>"; };
 		4652C901B41FC19AD3F1C14A2683F5C3 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
 		4709B7728DCF3C57DE1815A46430AE70 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		470C0FB19AC81ABF5298EC9ADD408944 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		473089A367706FEFD1988996A9A50D37 /* Pods-TBIMLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIMLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		477081CF4E9B44940D9A2D59A70E976E /* Pods-TBIMLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBIMLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		479188B4E2DBDE26764F6865D471FD9A /* TBIMLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBIMLibrary-dummy.m"; sourceTree = "<group>"; };
 		481A6686C9FF3485D7CD6ADB53C3E23D /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
-		4B2AF623E2F4D35D2CF9045831E490E6 /* SIMMultiterminalLoginStateMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMMultiterminalLoginStateMessage.h; sourceTree = "<group>"; };
+		4C8E25B1841531859E197D5D106310C4 /* TBIMLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBIMLibrary-umbrella.h"; sourceTree = "<group>"; };
 		4CDC14B3AD91BFE4197DC22160698AC5 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		4D07FCFEE65F7F34D5BF265CF738B2A9 /* TBIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TBIM.h; sourceTree = "<group>"; };
 		4D28E9D557E8885965A750DE6F373382 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
-		4E451695C3AD8E9CE8BDACCC52DC43AB /* SIMBaseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMBaseMessage.h; sourceTree = "<group>"; };
 		4E52C3160DB0C82754DD24D03675DCC6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		4F9B727E2852B2F94A0D9F52526AE5D2 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		4FBA3A7B7F3780D862331AE1E204E215 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		4FC5995E15EB57105F5B150F9208704D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		5002241DE0F4CE65A04012D3F842B2B1 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		501B07AB3DBEA5D3A343D9BA48D88E2E /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
-		50638DB01D7D756ED216129D839517BA /* TBIMLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBIMLibrary-Info.plist"; sourceTree = "<group>"; };
 		50CCBE4A8BD810618A1F6B6DEF9C86BF /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51674B592D2849CE0DD9C93E64F3E914 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		5287A336171551A17C52A0FCBFB5F9AC /* ReachStateWWAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWWAN.h; path = RealReachability/FSM/ReachStateWWAN.h; sourceTree = "<group>"; };
 		53125055F92E84EDEDC4E2C4BEE8A00E /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		54F9EDD3596695EA00098820EDC77590 /* SIMBackOrForegroundMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMBackOrForegroundMessage.h; sourceTree = "<group>"; };
 		550BC870EC242A06FD6103874C5C481D /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5544547BF4997C2C4084DB55F228D761 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		55456700115A98E104083411C4054687 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		56418C8F174FD33BBFEBD47642E78A0E /* SIMNetReq+Login.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+Login.h"; sourceTree = "<group>"; };
 		56E39749E33F540BAA1B29F6887620E7 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		56E745F4F15C08D8DE5ADF925B405E2D /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		5793BAE0EDE9B547346A1C34D5CAAAF0 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
@@ -546,15 +545,13 @@
 		5A2999B35CA405FB195AD54F546BF6BF /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		5A3F6232F01C0B224146DC8DBA4445FA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		5B99BDD046376D0016A3A4956B9CB22F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		5BA6D5FE8A0792AE10B9D71BAFAA4D24 /* SIMDataResolved.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMDataResolved.h; sourceTree = "<group>"; };
 		5BB52153E927026BF639FDC64CC3A1CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		5C2683993FA62CAECCAC4C6342F95476 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C61AF700D13910E09AEF556E919B9D5 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		5D1AA0385AF23A3FD0EE40C08BFF7059 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		5EC7FB440B310D3BD9776424402CF621 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		5ED5A13A17BAA2FC6A4B9F6F5DBA2845 /* TBIMLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBIMLibrary.modulemap; sourceTree = "<group>"; };
-		5EE28D629783B3AFBB75311B9C30809F /* SIMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMError.h; sourceTree = "<group>"; };
+		5F24F48CF66F12DDD41E7EE257853A71 /* SIMDataResolved.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMDataResolved.h; sourceTree = "<group>"; };
 		5FC4585345E2DF2E628F39117B3E5699 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		60BBE6789B14CEFE3C695ACAFE8AC782 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D2840A82BD15626E1BF0A45AEF73F3 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
@@ -566,15 +563,19 @@
 		654A88C91D7EDA31DDB3CC0A3913D1CF /* RealReachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RealReachability-Info.plist"; sourceTree = "<group>"; };
 		666CE45D36C658C2E433AD6C2A7DE0FF /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		66CC9E1F7CE20DDE0B83992E45138880 /* RealReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-umbrella.h"; sourceTree = "<group>"; };
-		670838F68570FA95FFA877BED57C422A /* SIMNetReq+AddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+AddressBook.h"; sourceTree = "<group>"; };
+		670BD99095866B3C7F1A33E0CDB7C186 /* SIMLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMLogManager.h; sourceTree = "<group>"; };
 		682DE3123AEE621ECCD38EFB58591DD2 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		68D64AE3EEEA6BC6C4015EFFE5DCA5D7 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		6AD2DAD315A041055455B5073D40378F /* SSocketHeartbeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSocketHeartbeat.h; sourceTree = "<group>"; };
 		6AD7DCCA3E875D7B553D5CED1E312874 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		6BD4EDF211CE8517B28E60B07566B043 /* SIMComm+Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Message.h"; sourceTree = "<group>"; };
 		6C0899591E15884BB738DD88168E7FE9 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		6E0C2B22542CC97BBD2FF7FCDC6A2051 /* SIMNetReq+IMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMGroup.h"; sourceTree = "<group>"; };
 		6E1E6EA55C1741DB24B4D7EBEA3ABA59 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
 		6EDAA408D7C91CE40016F481A40F3C72 /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
 		6F7C7104759C2631D0C1D9781E894468 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
-		6FD4A234869EDB6546E6CA48C5F1EF72 /* TBIM */ = {isa = PBXFileReference; includeInIndex = 1; name = TBIM; path = TBIM.framework/TBIM; sourceTree = "<group>"; };
+		6FB23535449D2330D9DF9FA0C0761A07 /* SIMCallBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCallBack.h; sourceTree = "<group>"; };
+		6FBA4B4CF70BB34FA0F3421B442A5C15 /* SIMSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMSessionManager.h; sourceTree = "<group>"; };
 		707153C10CBB418854AFF4B1FB0590F4 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		70B0EC61D345DD4DD389A13CE885AE1E /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		71A7B957FFF8E2767FEC2F388089C1E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -582,9 +583,10 @@
 		730C999AA076815914A151F3381D3A41 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		730E0C64214F9BD296CA896D202441EC /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		7388C0A149E329D75E753CCAF2A733D1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		758CBEF6979183CF6684F691AB392D64 /* SIMSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMSession.h; sourceTree = "<group>"; };
 		75DFD6080E1050CD8518E0BF2BA2FABF /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		76F882C86E5C41437DA356E8A7075BFE /* Pods-TBIMLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBIMLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		784DFE72F9BBE9741C6D12F8C6822622 /* SIMNetReq+Login.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+Login.h"; sourceTree = "<group>"; };
+		77F6A3D4CE6B15A3EC68F62B1C951512 /* SIMNetReq+AddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+AddressBook.h"; sourceTree = "<group>"; };
 		78C34DEED6A04FA7B4BAFB43F926CB25 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		7ACE7D19BFC37CD645339408D20D343D /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		7B48E86354E06675633D7D3E65E6091C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -592,38 +594,35 @@
 		7BE84536369169E2A651B733EA1ED184 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		7C1DFFAF6459035BEC25B8AE80FE4DD2 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		7CBFFFC5323776D97B897699DB9CE759 /* Pods-TBIMLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBIMLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		7D761306B6B49F4A4CE1725DCCF35A3E /* SIMDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMDeviceManager.h; sourceTree = "<group>"; };
+		7D80DCFF59445F0BB4A23CA6400B5835 /* SIMNetReq+IMFriend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMFriend.h"; sourceTree = "<group>"; };
 		7DF47A73A292574FCF1613A0A2F96203 /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
 		7F4F76C1ACDCAF55BCBDCFCE2AAFB601 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		7FD29B5F63DF7D9D1005BEB8613F1E50 /* PingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingHelper.h; path = RealReachability/Ping/PingHelper.h; sourceTree = "<group>"; };
 		7FF13591B245F31900F75190ADEEA46B /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
 		801092679E7280EC0038F09020AF7C8E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		811E11B302CC0D0FED4E11C6C738750D /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
-		813B7D531AE7436DBC3038D3CC9F2EFD /* SIMSNSChangeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMSNSChangeInfo.h; sourceTree = "<group>"; };
-		822FE0573E5DACA34AD32E81FC09E8D2 /* SSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSocket.h; sourceTree = "<group>"; };
 		82B449CB04B56DAE615F5E132E9EA824 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
 		82C5DD9DD9E61C69B86DDE7FC9834591 /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
 		832B9C6B5EF77B9D30B0CC2B369FC8C0 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		833E9B5C7AB0F524A2C5BDE27C6C1FE4 /* SIMSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMSession.h; sourceTree = "<group>"; };
 		836C49BA69B27E6EC7767F3DE86CE939 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		83E98250B1E21F39892D58FBE4E1C09E /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		83FE8613B266C06B5683B430DDDC3496 /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
-		854C1FC0ABBCE31019EEB2ED46EBFFA1 /* SIMCustomManmager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCustomManmager.h; sourceTree = "<group>"; };
 		857F9BCA25513ED5DB151119EB6BE593 /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
 		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D8D6D4D4855B023F6D74C457069022 /* SIMMultiterminalLoginStateMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMMultiterminalLoginStateMessage.h; sourceTree = "<group>"; };
 		86409AD9ABA1D372FEDE0DB61EB85D95 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
 		86CA45E9D93C09B208A4869BD5A1838F /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
 		86FB1B9F0EB25F504C61E36F3F9D7CB0 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		870921EF3A3606351A7548DBAA10C2E2 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		873FB47C6C024D45BBC130A350CC010E /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		8A5FA45CD1A81E1D14BCF12A2CE1BA03 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
-		8B363740E886820723F20B0716633A1A /* SIMTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMTools.h; sourceTree = "<group>"; };
 		8D2B12ACC6426B1C7DCADEC3A701D022 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
 		8D6E66E05871CA7F897F9E2816CF0C76 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
-		8EE61CB4D428CBD9DFE054CA4AD8C1CC /* SIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMMessage.h; sourceTree = "<group>"; };
+		8DE1F97A640CECBE0E3774876B45E16A /* SIMNetReq+IMChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMChat.h"; sourceTree = "<group>"; };
+		8E6E105F9F5BFA03EE6A826438CDCD3E /* SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMKit.h; sourceTree = "<group>"; };
+		8EF23FBD42A19BAE2C1520C813527BF2 /* SIMComm+Control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Control.h"; sourceTree = "<group>"; };
 		8F11979C3FBD4A03F4852626065C7D72 /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
-		910DE27898AC61577B067AF77C8B0340 /* TBIMLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBIMLibrary-prefix.pch"; sourceTree = "<group>"; };
-		924514B5AC407FF2CB64E68678457A6C /* SIMRecentMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMRecentMessage.h; sourceTree = "<group>"; };
+		90668B2F0C3D6F6128769E2874FD2F00 /* SIMComm+Friend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Friend.h"; sourceTree = "<group>"; };
 		92B4733924DA85478C102A1E7AF649E7 /* Specta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Specta-Info.plist"; sourceTree = "<group>"; };
 		93199DC678807A216E93CCC26AEFF728 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		93AAB26C20C5E550FBDFD3CF101F0154 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -631,16 +630,16 @@
 		948EC1E76A061186B490301C8956F5B4 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
 		95AF7E4D65A7DDC68EB56DEBB9CE5A0B /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		95D2BB54AD0ED07D612FC372BE2B39D1 /* RealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealReachability.framework; path = RealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECC3113496FFEE582B09AB8B7CD2CF /* SIMNetReq+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+Common.h"; sourceTree = "<group>"; };
 		971BDB4AA63B9171AF075904A125D4EF /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
-		9735BEA819943E8A637CBFBA8CB0CCB4 /* TBIMLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBIMLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9749455B6F13AEB4DEC1BF9A9D369588 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
+		97DB5D6083EB6783EC8F4D124D3223BA /* SIMComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMComm.h; sourceTree = "<group>"; };
 		98039BD48592BEF092F8985F2426ADBB /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		9851C367D24E23AB1CD49AE0952084E7 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
 		9988E70EBE577F8F4D3F65CF30D7A6B2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		99ED2A235ED4F3D32D2462A8B11B15FF /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		9A08A165A07262D60729341BCF3B9251 /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
 		9C3D8626EBDFE9E1C8A2A48C40E228CA /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C6C4AD4E961DF77F8172239BCAC3B5E /* SIMGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMGroupManager.h; sourceTree = "<group>"; };
 		9D2BCEF733121F820ED3AFF213052F5C /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		9D7F89DBE41E1AEC27C3550688967133 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -649,25 +648,26 @@
 		9F9931697A7C65CA209C901541FCA378 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
 		9FE7FB951BD6AF790C78A1AAEB0D2F41 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		A001F68EA80CD00A42BE5A96905D95D5 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
-		A04DF82E7C04E9752F24D4553D0A517A /* SIMHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMHttpResponse.h; sourceTree = "<group>"; };
 		A122AB1157FCC4500A2B2C6DAF6E14B9 /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
 		A2D034CDABFFB45EF951C331A17ABD39 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		A4CF2713DE79671117BDD16A59749FFA /* SIMComm+Friend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Friend.h"; sourceTree = "<group>"; };
+		A41D671756472714E3656D3674FF7053 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54806324D7015E10D887E46E5CD8DCD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A5D65AF1B55D6D3CF29335E9FEE19721 /* SIMFriend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMFriend.h; sourceTree = "<group>"; };
 		A6BF2922806450DF2C55D9A7EE58418C /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
+		A75BE8E78FD7F50AB35C9EA7C0CFC22E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A78C5B1DA35DAB640C78F6BBF723D627 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		A87652E7DDF7327F8C1E7296DC49BFA5 /* RealReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-prefix.pch"; sourceTree = "<group>"; };
+		A9E63E0DF64C7DE3AA6D1C5B21661DD4 /* SIMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMManager.h; sourceTree = "<group>"; };
 		AA8407908291811180FEB37D8F6A690F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		AAC6D30AB3F11E3A13D908FF0661DE3E /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		AAE093272B189377BF4FB8A9075A5CD1 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
-		AB11FDB9698883BE58F30D78A48EB03B /* SIMCallManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCallManager.h; sourceTree = "<group>"; };
 		ABF9B0681AF500C902A9456DD3360DDD /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		AC2228834835ECCFEA736F5613A44145 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		AC30B2AF61FD1F5A84CC2F832AFC0FF0 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		AC8EDDFFA82A5F71938354FBEBA15A73 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		ACC88CB539B4256B8396C6F0108D0854 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		AD32F0E72E45FB3FD0560B9E195121C2 /* SIMMessageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMMessageManager.h; sourceTree = "<group>"; };
+		AD6355EECAA6218C1E7E0115439995F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = TBIM.framework/Info.plist; sourceTree = "<group>"; };
 		AE730D031683076A233A3B589F5EBD36 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
 		AED289A30A39FE81E1D2493212C40CFF /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		AF9A42104E32B1BC22C29B5C580E718A /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
@@ -675,9 +675,8 @@
 		B5F35E964FAE44EF06B091195820775F /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		B82EDE10F3E8963AFC05B31E128CAEE9 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		B9BB6FBB5B35F572771591F9BE19737C /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
+		BA9A9AD013B9B9047EE99603A42D998D /* SIMComm+Session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Session.h"; sourceTree = "<group>"; };
 		BCC7E4F19369C05EDA1CF63FD46B6D91 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		BD3CF082F3BF4D5F37A8906DDBCFD7E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BD48C78D4C41EDEB4A9F939B87F4A4D0 /* TBIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBIM.framework; sourceTree = "<group>"; };
 		BEAB6D761A16D47FEE0AE2AD96DE7EA0 /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
 		BF6369C94BFDBA94C421F105928EBF9F /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		BF6839B08B3CBF84FC329EC8D09CEACD /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
@@ -685,27 +684,31 @@
 		C061144148B630224646006C768EC87C /* PingFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingFoundation.m; path = RealReachability/Ping/PingFoundation.m; sourceTree = "<group>"; };
 		C1EDE48021442820BBBB69FB97416FFD /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		C3B80AEA148630DB5B08720EA65D0511 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
+		C55BDAFE9A4EB66D956914AE271633AA /* SSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSocket.h; sourceTree = "<group>"; };
 		C70FE058851CC4F9A5F9E889F4A42EE8 /* Pods-TBIMLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIMLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C78D1005240B9E0F57B919CDDCE08390 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		C8105175768D1748B76F3BB442D229E7 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		C8FB1CD1833B248411FEDAC75566256C /* TBIMLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBIMLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C98551FE01F769C0FC62A61FBD1965CA /* RealReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.xcconfig; sourceTree = "<group>"; };
 		C9B8100346D0F78CA39F8F31B4444E4E /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
+		CAC406762DB3D100FE4246D8757CAECC /* SIMListenerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMListenerManager.h; sourceTree = "<group>"; };
 		CD666C48442DC307497D81D0CB2F947E /* Pods-TBIMLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBIMLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CDB7A5B37D78191E312B474A581CD23C /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
 		CE6DA38C5F8684A8BAAD73947822CE6B /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		CE6FF0D57C5BED892573FE5B03AB0A4C /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
-		D0929F86BF5A008DDFBB212A2D579431 /* SSocketHeartbeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSocketHeartbeat.h; sourceTree = "<group>"; };
-		D1B9C7D07ECAA54B9CCC38517D4379B4 /* SIMOfflineMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMOfflineMessage.h; sourceTree = "<group>"; };
+		D09B2F02840C1F182E96F5CA852B53EE /* SIMTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMTools.h; sourceTree = "<group>"; };
+		D334EB0A02D2225586A6A086B72EADC7 /* SIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMMessage.h; sourceTree = "<group>"; };
 		D3641998BD0A980B3020CEAF011627AF /* Pods-TBIMLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBIMLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		D3CBAA25DECFAC8591BE324D16989428 /* SIMNetReq+IMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMGroup.h"; sourceTree = "<group>"; };
 		D6F8D32BD972DD5B835DC46830714FCA /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
 		D77232F67164051CB3A3C9BFB53BF9A1 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		D8F80F4EA0208F2486298F319BC11F77 /* SIMCallManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMCallManager.h; sourceTree = "<group>"; };
 		D948FE64AD2C65369CBD3423839BAF86 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		D95519D98D2F9D23B02532FA01547E82 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		D9F8793422B973292AA7213FA0228890 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		DAC10693D51DB18483A6610484C9225B /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		DACFD6367B853FBB1AD5053727CD92B2 /* SIMFriend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMFriend.h; sourceTree = "<group>"; };
 		DAD0EA419D22098AEB9137A60EDC4D7A /* Pods-TBIMLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBIMLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		DAD361E07046384602DFF7C1990763DA /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
+		DAE128FA1F167F31960C01B6BAAF4661 /* SIMNetReq+IMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMUser.h"; sourceTree = "<group>"; };
 		DC3BF226648AC00EFF73F79554BD2846 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		DC6376A36C74BE2E90FBD8D3E1C1718D /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		DCD3518A933BC864AC5E8369A8256EFA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
@@ -716,46 +719,47 @@
 		DEC2104140D660F0D677FEFAF46025CD /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		DEEFDF3A3801A7045DFE2CD581E5BE85 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		DEFD318BCB5F167FCCC1ED8774B3E65E /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
+		E043490543C61E7F381C19FEBC639146 /* SIMComm+Group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMComm+Group.h"; sourceTree = "<group>"; };
 		E051E6327DFAB9685E5C900C05CA1717 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E0D548BA82B7FAE0254316D539154E94 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		E124F6099759F32371B39E0472539A96 /* SIMFriendShipManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMFriendShipManager.h; sourceTree = "<group>"; };
 		E1B2FA0158748243B52115E2D1DAF5FD /* ReachState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachState.m; path = RealReachability/FSM/ReachState.m; sourceTree = "<group>"; };
 		E1DE0436A918DE6705D1F2B647978467 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		E2D0565526E50C9BEB76320AA6C30ACD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		E31E963298AA772DAD39354D93FDBBA3 /* SIMNetReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMNetReq.h; sourceTree = "<group>"; };
+		E3722CC97518D66FD5BDD7EA3CDC2E17 /* SIMNetReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMNetReq.h; sourceTree = "<group>"; };
 		E385449662FB3B602A1C56CA53607C35 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
+		E3A3F77FFC63B3DD278FD5BB5E3E846F /* TBIMLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBIMLibrary-Info.plist"; sourceTree = "<group>"; };
 		E3EADA8B37DCD5B6BC15A72CBB2A3686 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		E42390BC9FE10376A67D0D2DEA7C14CB /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48B4505781794B55E0128BD83751D5B /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		E5352F88A7D6B102D911A8597D5601E2 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		E53AFE4E800CE0AEF3FC22856EE07B32 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
-		E54F3298E67DEC04ACDD917ED5A4C02D /* SIMNetReq+IMFriend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIMNetReq+IMFriend.h"; sourceTree = "<group>"; };
 		E5DA8ED13C9D2C55576B70EBE9F1A595 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
-		E8F39DDD710BB139E2C5B0EF63536A47 /* TBIMLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBIMLibrary-umbrella.h"; sourceTree = "<group>"; };
 		E930F6C9AE6D09D08787B4307425AC27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		EAD0D450BD4070446A2141ADFDAE204F /* SIMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMManager.h; sourceTree = "<group>"; };
 		EB0874866E75D60D003322D16CDE58D9 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		EB75C362C4BCC5831F763387C76849AB /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
+		EC10C701E39866FA40FC07FE3B3EAFBE /* SIMSNSChangeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMSNSChangeInfo.h; sourceTree = "<group>"; };
 		ED9DB6ABF2CB95041F0F333AD152C8B2 /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
+		EDB130B877038844412236968703A28C /* TBIM */ = {isa = PBXFileReference; includeInIndex = 1; name = TBIM; path = TBIM.framework/TBIM; sourceTree = "<group>"; };
 		EE0BE27FA6D370BA4D0E8F79AE84AB8F /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		EE52F7C12899E4F6468C2250A9742A07 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		F12B52D15982762864291CDBBE6445EB /* Pods-TBIMLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBIMLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		F27B7908360DEE642E17381B4B9A669B /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		F30CB8BE2DEB4F76E1CA5D87451C93CB /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		F316C2C7389529EE7A9A4E4362231631 /* SIMNetStatusManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMNetStatusManager.h; sourceTree = "<group>"; };
 		F585DBB80495BE5005A54C27C9F015CA /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
-		F5D2858A5B29D7844EAAF4D0A5F7BB03 /* SIMListenerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMListenerManager.h; sourceTree = "<group>"; };
 		F5F6B02DBF2BE175DE4C847B43D2BC5F /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		F80F4E686F9E1B4E1409B82D9DDE938D /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		F8494444C3C865E161282DBE3B84EE0E /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
+		FB60AD92D0FF955DBF69F7626256CECE /* SSocketApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSocketApi.h; sourceTree = "<group>"; };
 		FBB2B50F1CDC884E165EFEAA6EBFFDCF /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
 		FBDE928B55870FA7576AF3D7A372A820 /* Pods-TBIMLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBIMLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD1223C20C4BD89AAC94F3BFA739A12A /* TBIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TBIM.h; sourceTree = "<group>"; };
 		FD18F34A03DF166DB82BA100D6721BC1 /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
-		FD36E2A7CC876B70B114DF2937D01684 /* SIMNetStatusManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMNetStatusManager.h; sourceTree = "<group>"; };
+		FED5ACA12F9BFDA375314F85A3C64514 /* SIMGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMGroupManager.h; sourceTree = "<group>"; };
 		FF3286B6C123D32972D41B9F26009790 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		FF380DDA9BAD5C74DB07BB9AB1C7ABC8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		FF416C4FB6563B8490A90B6834AAFE31 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		FFEAD20F78B3E363197808C45BC235CC /* SIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SIMKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -779,12 +783,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3404B911ED4BE47F7BCCE7848B182FF5 /* Frameworks */ = {
+		255CBA056FE79D6D800ED79125A15EA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81C4B0915383641825502CF27FE4C13 /* CoreFoundation.framework in Frameworks */,
-				42BB4F49DEC463B22672BE803CAF43E0 /* Foundation.framework in Frameworks */,
+				8D27BB892F156B8C21776760CB4479BD /* AFNetworking.framework in Frameworks */,
+				C4FFF05E61813AF2DD9E6CE30A65E325 /* Foundation.framework in Frameworks */,
+				793EA178751F3FAD8592281457D8B4E7 /* RealReachability.framework in Frameworks */,
+				3E1CB10477BB28958C3B61A8CCB96358 /* SocketRocket.framework in Frameworks */,
+				6377A6B3DF0FE5AFEF42EE1AD000F471 /* YYModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,18 +822,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64D8FF5AB193C0E408FBBBC7A51557AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4246B59569EB3F71DE4DE01E7A7E5470 /* AFNetworking.framework in Frameworks */,
-				374C7F558C0AE999FF7ABE469A8839A4 /* Foundation.framework in Frameworks */,
-				62EEFC81BCD3649FA4954E6FD274839C /* RealReachability.framework in Frameworks */,
-				29D443FB0FBEAA52986C0EC209746987 /* SocketRocket.framework in Frameworks */,
-				7F0FCE6EC0F84499AFE492536AA0202F /* YYModel.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7312BAFD17174C2E85416CF941012159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -853,6 +848,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				151B8EA87EFEB966C78565829C8ED35A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95CA63D8E310E2606FF247E478FAF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3FAD92FCDFF066DC4AA0FC8615BD4 /* CoreFoundation.framework in Frameworks */,
+				0E00B94FF0225F762F58DD0AE4AC6038 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,22 +933,76 @@
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		2F1E7B7A7AFB64534F66AAC779F791C2 /* Frameworks */ = {
+		1EF9A84C7142C259D3DAB4AE36BF54E5 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				BD48C78D4C41EDEB4A9F939B87F4A4D0 /* TBIM.framework */,
+				09ED25698087D19FA4516B81A1A0741E /* SIMBackOrForegroundMessage.h */,
+				3302859886086C38E2685A45FF5378DA /* SIMBaseMessage.h */,
+				6FB23535449D2330D9DF9FA0C0761A07 /* SIMCallBack.h */,
+				D8F80F4EA0208F2486298F319BC11F77 /* SIMCallManager.h */,
+				412D849A939459CF6813B0F7EEF04C35 /* SIMCallMessage.h */,
+				97DB5D6083EB6783EC8F4D124D3223BA /* SIMComm.h */,
+				8EF23FBD42A19BAE2C1520C813527BF2 /* SIMComm+Control.h */,
+				90668B2F0C3D6F6128769E2874FD2F00 /* SIMComm+Friend.h */,
+				E043490543C61E7F381C19FEBC639146 /* SIMComm+Group.h */,
+				6BD4EDF211CE8517B28E60B07566B043 /* SIMComm+Message.h */,
+				BA9A9AD013B9B9047EE99603A42D998D /* SIMComm+Session.h */,
+				0779A54AE13853CAA68BDEDADCDBE365 /* SIMCustomManmager.h */,
+				099D7E4FE0D317DDD46234737669D616 /* SIMCustomNotification.h */,
+				5F24F48CF66F12DDD41E7EE257853A71 /* SIMDataResolved.h */,
+				1E5EE1D16164BD006DF86AEC95E4F3F4 /* SIMDeviceManager.h */,
+				2DC2B27DFC4888BEBF9C2E8ACF5B6592 /* SIMError.h */,
+				A5D65AF1B55D6D3CF29335E9FEE19721 /* SIMFriend.h */,
+				3706DB8DDEB9F9645A45F0436646BF7D /* SIMFriendShipManager.h */,
+				FED5ACA12F9BFDA375314F85A3C64514 /* SIMGroupManager.h */,
+				3AFC1924B619BFD27FBACB8F9A19CD98 /* SIMHttpResponse.h */,
+				8E6E105F9F5BFA03EE6A826438CDCD3E /* SIMKit.h */,
+				CAC406762DB3D100FE4246D8757CAECC /* SIMListenerManager.h */,
+				670BD99095866B3C7F1A33E0CDB7C186 /* SIMLogManager.h */,
+				A9E63E0DF64C7DE3AA6D1C5B21661DD4 /* SIMManager.h */,
+				D334EB0A02D2225586A6A086B72EADC7 /* SIMMessage.h */,
+				2A0C958AFD1BA027282EAABD5C2F7B3D /* SIMMessageManager.h */,
+				85D8D6D4D4855B023F6D74C457069022 /* SIMMultiterminalLoginStateMessage.h */,
+				E3722CC97518D66FD5BDD7EA3CDC2E17 /* SIMNetReq.h */,
+				77F6A3D4CE6B15A3EC68F62B1C951512 /* SIMNetReq+AddressBook.h */,
+				96ECC3113496FFEE582B09AB8B7CD2CF /* SIMNetReq+Common.h */,
+				8DE1F97A640CECBE0E3774876B45E16A /* SIMNetReq+IMChat.h */,
+				7D80DCFF59445F0BB4A23CA6400B5835 /* SIMNetReq+IMFriend.h */,
+				6E0C2B22542CC97BBD2FF7FCDC6A2051 /* SIMNetReq+IMGroup.h */,
+				1CE20EB4CC0135B6CA5770F82EAD470F /* SIMNetReq+IMSession.h */,
+				DAE128FA1F167F31960C01B6BAAF4661 /* SIMNetReq+IMUser.h */,
+				56418C8F174FD33BBFEBD47642E78A0E /* SIMNetReq+Login.h */,
+				F316C2C7389529EE7A9A4E4362231631 /* SIMNetStatusManager.h */,
+				459D0837A7A1A5FAC9E461135CB559F2 /* SIMOfflineMessage.h */,
+				0C060F00FC5E03906DBED18094752733 /* SIMRecentMessage.h */,
+				758CBEF6979183CF6684F691AB392D64 /* SIMSession.h */,
+				6FBA4B4CF70BB34FA0F3421B442A5C15 /* SIMSessionManager.h */,
+				EC10C701E39866FA40FC07FE3B3EAFBE /* SIMSNSChangeInfo.h */,
+				D09B2F02840C1F182E96F5CA852B53EE /* SIMTools.h */,
+				C55BDAFE9A4EB66D956914AE271633AA /* SSocket.h */,
+				FB60AD92D0FF955DBF69F7626256CECE /* SSocketApi.h */,
+				6AD2DAD315A041055455B5073D40378F /* SSocketHeartbeat.h */,
+				FD1223C20C4BD89AAC94F3BFA739A12A /* TBIM.h */,
 			);
-			name = Frameworks;
+			name = Headers;
+			path = TBIM.framework/Headers;
 			sourceTree = "<group>";
 		};
-		2F7C1B2139A1E63EF68F934321B74C41 /* Pod */ = {
+		340065E8CAABF2910ADFAD302D6B0AC0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD3CF082F3BF4D5F37A8906DDBCFD7E4 /* LICENSE */,
-				3417A1602A73381C37879BB8A275D244 /* README.md */,
-				9735BEA819943E8A637CBFBA8CB0CCB4 /* TBIMLibrary.podspec */,
+				D5FD02B5C9965C191129206BAB438384 /* TBIMLibrary */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		34343EBFA30D87E716FB8632E9A8C702 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				CDB7A5B37D78191E312B474A581CD23C /* CodeResources */,
+			);
+			name = _CodeSignature;
+			path = TBIM.framework/_CodeSignature;
 			sourceTree = "<group>";
 		};
 		3CBA30B67F3F4EFF1920C620C33833C2 /* Support Files */ = {
@@ -961,59 +1019,14 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		50C47031CAA9D4C2C064F12E491F1412 /* Headers */ = {
+		553998101EC3D0F87F74D1F91DD3483C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				54F9EDD3596695EA00098820EDC77590 /* SIMBackOrForegroundMessage.h */,
-				4E451695C3AD8E9CE8BDACCC52DC43AB /* SIMBaseMessage.h */,
-				2F5F008B35FA32A984A542A8E212039E /* SIMCallBack.h */,
-				AB11FDB9698883BE58F30D78A48EB03B /* SIMCallManager.h */,
-				2CB8CDE13D87C0F33CF892C2DB58A874 /* SIMCallMessage.h */,
-				08024759A2DF72F52D32977CA996EC59 /* SIMComm.h */,
-				382E9E76FD2904BBBB4D195C13D68445 /* SIMComm+Control.h */,
-				A4CF2713DE79671117BDD16A59749FFA /* SIMComm+Friend.h */,
-				25246D16A896FA65A21FD373B6893593 /* SIMComm+Group.h */,
-				34EB8A8D96BF88594AA9E16D89AF92A3 /* SIMComm+Message.h */,
-				29FCACC7795EA5410804073F18577B22 /* SIMComm+Session.h */,
-				854C1FC0ABBCE31019EEB2ED46EBFFA1 /* SIMCustomManmager.h */,
-				3315550ACD1F6A13A7D51711A4BE33E4 /* SIMCustomNotification.h */,
-				5BA6D5FE8A0792AE10B9D71BAFAA4D24 /* SIMDataResolved.h */,
-				7D761306B6B49F4A4CE1725DCCF35A3E /* SIMDeviceManager.h */,
-				5EE28D629783B3AFBB75311B9C30809F /* SIMError.h */,
-				DACFD6367B853FBB1AD5053727CD92B2 /* SIMFriend.h */,
-				E124F6099759F32371B39E0472539A96 /* SIMFriendShipManager.h */,
-				9C6C4AD4E961DF77F8172239BCAC3B5E /* SIMGroupManager.h */,
-				A04DF82E7C04E9752F24D4553D0A517A /* SIMHttpResponse.h */,
-				FFEAD20F78B3E363197808C45BC235CC /* SIMKit.h */,
-				F5D2858A5B29D7844EAAF4D0A5F7BB03 /* SIMListenerManager.h */,
-				16AF2931A0D65D70CAEFE73A2862E125 /* SIMLogManager.h */,
-				EAD0D450BD4070446A2141ADFDAE204F /* SIMManager.h */,
-				8EE61CB4D428CBD9DFE054CA4AD8C1CC /* SIMMessage.h */,
-				AD32F0E72E45FB3FD0560B9E195121C2 /* SIMMessageManager.h */,
-				4B2AF623E2F4D35D2CF9045831E490E6 /* SIMMultiterminalLoginStateMessage.h */,
-				E31E963298AA772DAD39354D93FDBBA3 /* SIMNetReq.h */,
-				670838F68570FA95FFA877BED57C422A /* SIMNetReq+AddressBook.h */,
-				18D68488626B2EF1E5F145AEA825E828 /* SIMNetReq+Common.h */,
-				26B4EF798B635E705EA887AAA39D2628 /* SIMNetReq+IMChat.h */,
-				E54F3298E67DEC04ACDD917ED5A4C02D /* SIMNetReq+IMFriend.h */,
-				D3CBAA25DECFAC8591BE324D16989428 /* SIMNetReq+IMGroup.h */,
-				0A5ABC82D3D5EDBBE75C2530E87B5BEC /* SIMNetReq+IMSession.h */,
-				036A67FC6C52A1F2154A2422BB42EB7E /* SIMNetReq+IMUser.h */,
-				784DFE72F9BBE9741C6D12F8C6822622 /* SIMNetReq+Login.h */,
-				FD36E2A7CC876B70B114DF2937D01684 /* SIMNetStatusManager.h */,
-				D1B9C7D07ECAA54B9CCC38517D4379B4 /* SIMOfflineMessage.h */,
-				924514B5AC407FF2CB64E68678457A6C /* SIMRecentMessage.h */,
-				833E9B5C7AB0F524A2C5BDE27C6C1FE4 /* SIMSession.h */,
-				4299F191C4ADD61E8A87F0328D8675B4 /* SIMSessionManager.h */,
-				813B7D531AE7436DBC3038D3CC9F2EFD /* SIMSNSChangeInfo.h */,
-				8B363740E886820723F20B0716633A1A /* SIMTools.h */,
-				822FE0573E5DACA34AD32E81FC09E8D2 /* SSocket.h */,
-				2DF59983B92AF04D44728E9A72CE8B16 /* SSocketApi.h */,
-				D0929F86BF5A008DDFBB212A2D579431 /* SSocketHeartbeat.h */,
-				4D07FCFEE65F7F34D5BF265CF738B2A9 /* TBIM.h */,
+				A75BE8E78FD7F50AB35C9EA7C0CFC22E /* LICENSE */,
+				1F19EF219C6882AB2B27A219DF088973 /* README.md */,
+				C8FB1CD1833B248411FEDAC75566256C /* TBIMLibrary.podspec */,
 			);
-			name = Headers;
-			path = TBIM.framework/Headers;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		58C848F9660A9780DC4DE5CDEBAF0EBD /* Ping */ = {
@@ -1025,6 +1038,20 @@
 				6EDAA408D7C91CE40016F481A40F3C72 /* PingHelper.m */,
 			);
 			name = Ping;
+			sourceTree = "<group>";
+		};
+		5C434F808865F13C0C5D7071A7D0771E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F1039A49451F76E869E60F3DA69EF87 /* TBIMLibrary.modulemap */,
+				0C9677F6A391BABF03084EAD6DCF0CA2 /* TBIMLibrary.xcconfig */,
+				479188B4E2DBDE26764F6865D471FD9A /* TBIMLibrary-dummy.m */,
+				E3A3F77FFC63B3DD278FD5BB5E3E846F /* TBIMLibrary-Info.plist */,
+				19199FE2CD908752216C67165C515483 /* TBIMLibrary-prefix.pch */,
+				4C8E25B1841531859E197D5D106310C4 /* TBIMLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TBIMLibrary";
 			sourceTree = "<group>";
 		};
 		632F6058ED8305205A48B3BC9EA9A557 /* Pods */ = {
@@ -1139,6 +1166,15 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
+		817D191A19E335DFB0FD26B1CE49BE50 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A41D671756472714E3656D3674FF7053 /* module.modulemap */,
+			);
+			name = Modules;
+			path = TBIM.framework/Modules;
+			sourceTree = "<group>";
+		};
 		8491DF15A06A49140931B49456A9D787 /* Pods-TBIMLibrary_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1154,6 +1190,14 @@
 			);
 			name = "Pods-TBIMLibrary_Tests";
 			path = "Target Support Files/Pods-TBIMLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		904DD7B0DE5409FEF013B45E89586997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4618DF4E7C58EF6857254305A4B41FC5 /* TBIM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		927DD16FBC96B265937A8FC2D77B4C8A /* Support Files */ = {
@@ -1240,15 +1284,6 @@
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		C9DAAE4B7CB2B3E3D46F33865CCD39A5 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				1F99EE1A37106E5C68F1002D82CE6115 /* module.modulemap */,
-			);
-			name = Modules;
-			path = TBIM.framework/Modules;
-			sourceTree = "<group>";
-		};
 		CACD88B394948D864BE6175C1DC7C082 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1268,7 +1303,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E474D042A1797B37710A3CE3729CE434 /* Development Pods */,
+				340065E8CAABF2910ADFAD302D6B0AC0 /* Development Pods */,
 				CACD88B394948D864BE6175C1DC7C082 /* Frameworks */,
 				632F6058ED8305205A48B3BC9EA9A557 /* Pods */,
 				D16FA91E1703C43E45EE2E2AD64CF2E7 /* Products */,
@@ -1421,6 +1456,22 @@
 			path = RealReachability;
 			sourceTree = "<group>";
 		};
+		D5FD02B5C9965C191129206BAB438384 /* TBIMLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				AD6355EECAA6218C1E7E0115439995F5 /* Info.plist */,
+				EDB130B877038844412236968703A28C /* TBIM */,
+				34343EBFA30D87E716FB8632E9A8C702 /* _CodeSignature */,
+				904DD7B0DE5409FEF013B45E89586997 /* Frameworks */,
+				1EF9A84C7142C259D3DAB4AE36BF54E5 /* Headers */,
+				817D191A19E335DFB0FD26B1CE49BE50 /* Modules */,
+				553998101EC3D0F87F74D1F91DD3483C /* Pod */,
+				5C434F808865F13C0C5D7071A7D0771E /* Support Files */,
+			);
+			name = TBIMLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		E2E3402A54947C6975E52BCC39E284BC /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -1445,14 +1496,6 @@
 			);
 			name = "Pods-TBIMLibrary_Example";
 			path = "Target Support Files/Pods-TBIMLibrary_Example";
-			sourceTree = "<group>";
-		};
-		E474D042A1797B37710A3CE3729CE434 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD07438ACD31F0C3384CAFD00EC814E4 /* TBIMLibrary */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EC5AEDDBBF8ABED6EFF473DFA6CF206F /* Support Files */ = {
@@ -1495,20 +1538,6 @@
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
-		F94B32727F8C89EA016112BFC6E45ABC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ED5A13A17BAA2FC6A4B9F6F5DBA2845 /* TBIMLibrary.modulemap */,
-				305D70FCA010AB529A12F385322F3070 /* TBIMLibrary.xcconfig */,
-				261D418488DD62FAA288FB41FAB18302 /* TBIMLibrary-dummy.m */,
-				50638DB01D7D756ED216129D839517BA /* TBIMLibrary-Info.plist */,
-				910DE27898AC61577B067AF77C8B0340 /* TBIMLibrary-prefix.pch */,
-				E8F39DDD710BB139E2C5B0EF63536A47 /* TBIMLibrary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TBIMLibrary";
-			sourceTree = "<group>";
-		};
 		FB332788E9B5E97DC66F1506A1D2D2C8 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -1534,20 +1563,6 @@
 			path = YYModel;
 			sourceTree = "<group>";
 		};
-		FD07438ACD31F0C3384CAFD00EC814E4 /* TBIMLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				6FD4A234869EDB6546E6CA48C5F1EF72 /* TBIM */,
-				2F1E7B7A7AFB64534F66AAC779F791C2 /* Frameworks */,
-				50C47031CAA9D4C2C064F12E491F1412 /* Headers */,
-				C9DAAE4B7CB2B3E3D46F33865CCD39A5 /* Modules */,
-				2F7C1B2139A1E63EF68F934321B74C41 /* Pod */,
-				F94B32727F8C89EA016112BFC6E45ABC /* Support Files */,
-			);
-			name = TBIMLibrary;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1558,17 +1573,6 @@
 				F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */,
 				778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */,
 				9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E5C4EE9ABDF4E453721E22D6E563CD4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3F514B7B9A34437AA1BF64833C42CC5 /* NSObject+YYModel.h in Headers */,
-				3F61E50D19C84A35ADDC3669FA0884A8 /* YYClassInfo.h in Headers */,
-				BE5B4FB53D487545C333B43A81B06B1D /* YYModel-umbrella.h in Headers */,
-				A52588EF97A0B6FCD78CB07E8B2B5BA8 /* YYModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1619,61 +1623,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51EDC2E0C1B25B49FA7E1D8BF1B4FC09 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8060179A1B9B415758DBA86F66641E3F /* SIMBackOrForegroundMessage.h in Headers */,
-				B7F640914D7BEBB169B7B58116C3B41B /* SIMBaseMessage.h in Headers */,
-				81191784FA7C20A17F29F7B4F068C5E2 /* SIMCallBack.h in Headers */,
-				61AF8D573ECF24C98CB6FE85F3CD5267 /* SIMCallManager.h in Headers */,
-				EF9D5F835777BDA74C94522E6F2425CB /* SIMCallMessage.h in Headers */,
-				F2869D03AF1E8DE5D774DD04BBA2DFCF /* SIMComm+Control.h in Headers */,
-				BD89CFE244E0FE16DC6AAC4D1A6BE804 /* SIMComm+Friend.h in Headers */,
-				C59C163A3355658FF1167356B6D08F5D /* SIMComm+Group.h in Headers */,
-				C9F65BD31D2242E2FB353B9898EF4551 /* SIMComm+Message.h in Headers */,
-				8EC3EB572DC074DC02A5137F4BF5D98C /* SIMComm+Session.h in Headers */,
-				F1F749046411D439AE3DD4E9985F4E2D /* SIMComm.h in Headers */,
-				DAFD0D881AD04EDFB3792222F6CDD220 /* SIMCustomManmager.h in Headers */,
-				06724CC5375DD46735ADBF970266BADD /* SIMCustomNotification.h in Headers */,
-				F76B9ACF84F5E57B80C870340BED3163 /* SIMDataResolved.h in Headers */,
-				A76E926E177064EC686686993F428BA5 /* SIMDeviceManager.h in Headers */,
-				B0606EA3A9D3F4330F2D78652EE016A3 /* SIMError.h in Headers */,
-				DE4A9321CEA9D0276F574CC636E7DB26 /* SIMFriend.h in Headers */,
-				9EB7CF819646DC6C3DF2EC9DB9B51DC5 /* SIMFriendShipManager.h in Headers */,
-				354523003689A191ECCC358D8E7E056B /* SIMGroupManager.h in Headers */,
-				CF334A00814F474CFFCBCABA65A871C7 /* SIMHttpResponse.h in Headers */,
-				FB41542E15E543B3B7B7EA66F5C1A3A6 /* SIMKit.h in Headers */,
-				9C8C301FE971C38FCBD9995F726F0111 /* SIMListenerManager.h in Headers */,
-				8A578C028C3D83876927FC88F01A6791 /* SIMLogManager.h in Headers */,
-				136E801AD6BEF39FC98C559B016418DD /* SIMManager.h in Headers */,
-				9E3E103BA7ACFE14DAF4812C9B4922DC /* SIMMessage.h in Headers */,
-				C38FB82B5E3B770464ACBC73138807E2 /* SIMMessageManager.h in Headers */,
-				1FFD86DC5D85BE8543D9BE896198769A /* SIMMultiterminalLoginStateMessage.h in Headers */,
-				8D6C0DFFA10DFB74D75A8CF5105EB28D /* SIMNetReq+AddressBook.h in Headers */,
-				F2566F39C93EC0956BDA9942BEECD6D5 /* SIMNetReq+Common.h in Headers */,
-				C7D8726DFF2A8EE5DA3D31A46F4C66DA /* SIMNetReq+IMChat.h in Headers */,
-				9A8397E35887DC7B863047F4E36232ED /* SIMNetReq+IMFriend.h in Headers */,
-				9159F51301FFEA3772F672ED98E6F63B /* SIMNetReq+IMGroup.h in Headers */,
-				D8256E5DBCF754CA0E945B53E256DF16 /* SIMNetReq+IMSession.h in Headers */,
-				8A89172D49657C02C4C7F333D70B489B /* SIMNetReq+IMUser.h in Headers */,
-				39B3EB0C0C0893962F186D0B6D2E6C34 /* SIMNetReq+Login.h in Headers */,
-				9354914D0BD581090BF294892DB1DA33 /* SIMNetReq.h in Headers */,
-				E3B2542337A0BBD555EBB581D024D0FE /* SIMNetStatusManager.h in Headers */,
-				1FA4E10DADBDCF3104A9614B8FA74CA9 /* SIMOfflineMessage.h in Headers */,
-				16DA2CEE38451000EC827BD80D6985AA /* SIMRecentMessage.h in Headers */,
-				E3F32F2039DC5E4726FF43D46DE2544B /* SIMSession.h in Headers */,
-				12EFAE8C36CE268193ABC1B5AD8AD57B /* SIMSessionManager.h in Headers */,
-				C7CFAF078BD1FB369B39B814203DAC3F /* SIMSNSChangeInfo.h in Headers */,
-				F6A3D8E3AC2A41E5CA53A4B2D83AE00F /* SIMTools.h in Headers */,
-				01591FDDCB1353BF600928BBF7BADF0A /* SSocket.h in Headers */,
-				04E7739E707E3466BF5916AB8AC73B0B /* SSocketApi.h in Headers */,
-				1180E99C881C964A3F0C1320285C522F /* SSocketHeartbeat.h in Headers */,
-				1ABF1B61AE4838FB3294FAFBF13FE266 /* TBIM.h in Headers */,
-				B14D9027AB1192974F7DEB48CB0AA8B1 /* TBIMLibrary-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		558E0CDE2CFC550C2F07B1A122D03A03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1686,6 +1635,72 @@
 				4DABC086BE7C1E8CEE71FC5EDFCD816A /* UIImage+Compare.h in Headers */,
 				08610BEB632F2CD110079551EF432E8E /* UIImage+Diff.h in Headers */,
 				AD96736DFA1A1A28B31F13E7818FCFE2 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEC3A9814D5879F90EE0B928198B486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBF7C289EC276E3F9552AEA186EF212 /* NSObject+YYModel.h in Headers */,
+				FC1088CE97419FBD1906E447E1DB73E9 /* YYClassInfo.h in Headers */,
+				02937F997F8F754C8960D8E0802CB884 /* YYModel-umbrella.h in Headers */,
+				5F2FBC2BF8FDD5B5D3B5A08D5C99E5B1 /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003C46A54401CC82EB9B06090E81DD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1276716CC4DD864C4CC9063275D981 /* SIMBackOrForegroundMessage.h in Headers */,
+				98B7C2AD164A513973D5A57A4D84EBC0 /* SIMBaseMessage.h in Headers */,
+				355E3D92F065ADBEED344EC3AB5247E3 /* SIMCallBack.h in Headers */,
+				457EC01C5F68790A52A374E73167A067 /* SIMCallManager.h in Headers */,
+				32BE2A352C30A84337FD9F7328513020 /* SIMCallMessage.h in Headers */,
+				8BDF51F77E78B6B82EF449B7B32F93EF /* SIMComm+Control.h in Headers */,
+				377127596855FF6BD1CA0B11CFC0951D /* SIMComm+Friend.h in Headers */,
+				A87DDFC53489D817BB2286A8F436460D /* SIMComm+Group.h in Headers */,
+				DC20DF8F0B9AD32E956D1DE4D7054CD9 /* SIMComm+Message.h in Headers */,
+				9CC5C4C51E72F42E5436857D8AD870B2 /* SIMComm+Session.h in Headers */,
+				E7CDD918EF87CE20472A1745FD73477E /* SIMComm.h in Headers */,
+				1AFCB433EFC090538BD6B55DD58E45F8 /* SIMCustomManmager.h in Headers */,
+				134B15AFCD44FAECEF8ECC943A2A0C3B /* SIMCustomNotification.h in Headers */,
+				05434221AE334129286BE7C9D378B186 /* SIMDataResolved.h in Headers */,
+				20FE92C3568A1696D1628F21419372A8 /* SIMDeviceManager.h in Headers */,
+				BA5D0EACE87D186FCAF680C868F32FBB /* SIMError.h in Headers */,
+				46CA7061C4E8A0BCB4C15F8417D51714 /* SIMFriend.h in Headers */,
+				C98591DDF47C623199439110D8AB0E39 /* SIMFriendShipManager.h in Headers */,
+				C07A727FD55348113E98AC6A192C872D /* SIMGroupManager.h in Headers */,
+				1A3EDE2048DF3CF73E88C5A2D7771AC1 /* SIMHttpResponse.h in Headers */,
+				FC7262D24E73E5ABC2B626C46647DE6F /* SIMKit.h in Headers */,
+				1B4FFBD16B3640C58B2C67A4F2E4CE6B /* SIMListenerManager.h in Headers */,
+				0620D450C328860FA6E98D8A5099FA65 /* SIMLogManager.h in Headers */,
+				5F892D7EF2EAAF1F00509D29F0FFE3FD /* SIMManager.h in Headers */,
+				8C7E113083CC3FBF9FD1CE503BAD7F55 /* SIMMessage.h in Headers */,
+				760E1580A8D1BC6D449A636FC253DE9D /* SIMMessageManager.h in Headers */,
+				07CCF3E3B586FCF7C2F7432FD9CCF373 /* SIMMultiterminalLoginStateMessage.h in Headers */,
+				8618D8D81140C4C39476A64ABE135E90 /* SIMNetReq+AddressBook.h in Headers */,
+				B1FC51BF2B28B46B7B664BC907770BFB /* SIMNetReq+Common.h in Headers */,
+				BB27546217D02CF1394ED4A3AA9A13B4 /* SIMNetReq+IMChat.h in Headers */,
+				57C26767BFDE17C1AA7F3BBE4D5DBAD2 /* SIMNetReq+IMFriend.h in Headers */,
+				78749F8ED49E385FB384C6DF190478E5 /* SIMNetReq+IMGroup.h in Headers */,
+				B248701202E8517918B5C76A033F8C2E /* SIMNetReq+IMSession.h in Headers */,
+				DCFE742A29EFD93A80A0FD972BC08040 /* SIMNetReq+IMUser.h in Headers */,
+				982F54DB0841D64FEF8469BDA861CCDD /* SIMNetReq+Login.h in Headers */,
+				7BEA742294A541EDFC022BCB6B4F4210 /* SIMNetReq.h in Headers */,
+				52BCE107BC8FFCD64C92ED10308FCBFC /* SIMNetStatusManager.h in Headers */,
+				D14E22F81467790684486F55863141A0 /* SIMOfflineMessage.h in Headers */,
+				6EA5723EE33AEC18243C8B19F38D7FE2 /* SIMRecentMessage.h in Headers */,
+				D71AFBB27AE659E4E9659C4B66B08F67 /* SIMSession.h in Headers */,
+				91CB8FABA4A125F1982570BDF7EF35EB /* SIMSessionManager.h in Headers */,
+				7AB14E1B300CCE4F4DD95397C17C3747 /* SIMSNSChangeInfo.h in Headers */,
+				A1973E15D78803A527682D71C3F85A14 /* SIMTools.h in Headers */,
+				87D8FF9EDF2134DE83C97CB8EBF2A71B /* SSocket.h in Headers */,
+				A90D7152A9FCC2C19AF4D680045A2A60 /* SSocketApi.h in Headers */,
+				9D35929A394CE07C6C8EA721EAD10EF5 /* SSocketHeartbeat.h in Headers */,
+				6C2FFEC0DE927C6B9C2FE248249A4B54 /* TBIM.h in Headers */,
+				F8339E372B502F4C69E8FCF82DC0D910 /* TBIMLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1827,20 +1842,20 @@
 		};
 		34EC338F5B39FBD48AD2FDA6340C4E27 /* TBIMLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 876EA4DD354C396F0E56A1D3F226E44C /* Build configuration list for PBXNativeTarget "TBIMLibrary" */;
+			buildConfigurationList = 406D8E8C8B0D98635883FA2D11E2F51E /* Build configuration list for PBXNativeTarget "TBIMLibrary" */;
 			buildPhases = (
-				51EDC2E0C1B25B49FA7E1D8BF1B4FC09 /* Headers */,
-				EF63D17F238170DFEE411575486D6147 /* Sources */,
-				64D8FF5AB193C0E408FBBBC7A51557AF /* Frameworks */,
-				75CFE4A44002F3CBB048A66677062F5D /* Resources */,
+				6003C46A54401CC82EB9B06090E81DD0 /* Headers */,
+				C430262E580D5015E0EEE98D260A2542 /* Sources */,
+				255CBA056FE79D6D800ED79125A15EA9 /* Frameworks */,
+				C016F34DE479CDDC4AC31A79AB6691E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2947D665B5E0B079FD8C2FD790D7B816 /* PBXTargetDependency */,
-				F4407256C17BBB52D1167DCD514D73CC /* PBXTargetDependency */,
-				CA85FC37BF57903A850A72D4C93CA3E9 /* PBXTargetDependency */,
-				2546F974FA1E9C9C5679F35353DDA62F /* PBXTargetDependency */,
+				9D32F4D92918AC4F2BE7A29FCD698930 /* PBXTargetDependency */,
+				36CC9BBA6AA104DEBD5CB6973454762A /* PBXTargetDependency */,
+				F5B49230B36310CD4C72F45DAAF9CC90 /* PBXTargetDependency */,
+				23E488B233D08439684F8DAB1FC6311D /* PBXTargetDependency */,
 			);
 			name = TBIMLibrary;
 			productName = TBIMLibrary;
@@ -1849,12 +1864,12 @@
 		};
 		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BB885FB337E5E5D7B14B88C1D46C063 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildConfigurationList = 36C3FD5B8F9CBD36158238F39AFDBB7F /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				1E5C4EE9ABDF4E453721E22D6E563CD4 /* Headers */,
-				E06DFAE01761D0FE4D53B47BF0AE0B15 /* Sources */,
-				3404B911ED4BE47F7BCCE7848B182FF5 /* Frameworks */,
-				4ED57CE02117B8495B6729269B23D1FF /* Resources */,
+				5BEC3A9814D5879F90EE0B928198B486 /* Headers */,
+				381DF26DD2A3AA7B8CB258014363C664 /* Sources */,
+				C95CA63D8E310E2606FF247E478FAF6B /* Frameworks */,
+				C24373D0EC11EEB7279673C6B7A4E439 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2063,13 +2078,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4ED57CE02117B8495B6729269B23D1FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51B338009A28492821105E82A3A3C869 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2091,13 +2099,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75CFE4A44002F3CBB048A66677062F5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8355896C0C23B1911C66257979859379 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2106,6 +2107,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A6620E44D4248429BD059BDB7FBF21F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C016F34DE479CDDC4AC31A79AB6691E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24373D0EC11EEB7279673C6B7A4E439 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2149,6 +2164,16 @@
 				1A7B46C7E3217E400CC573C6D92F9693 /* Expecta+Snapshots-dummy.m in Sources */,
 				16F74C2473CB0A727500E61780E107FA /* ExpectaObject+FBSnapshotTest.m in Sources */,
 				8479152A46904EEB3F1E1F7BB135A14F /* EXPMatchers+FBSnapshotTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381DF26DD2A3AA7B8CB258014363C664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F825B3F7D5DB203DE6184354A648F /* NSObject+YYModel.m in Sources */,
+				03AFA0D0F097AF0398A24C2B12953B51 /* YYClassInfo.m in Sources */,
+				21581C6BEDDA82909847EFEE1E606234 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2226,22 +2251,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C430262E580D5015E0EEE98D260A2542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DDF1DE04A326848C5C848398780A9B /* CodeResources in Sources */,
+				D56605B226BF23D79BBE91959367DF2F /* Info.plist in Sources */,
+				7F7CB65BE1D33EB7B5B6C5655C9153D7 /* module.modulemap in Sources */,
+				36CD218406AE383A9AE8E42B1B14485E /* TBIM in Sources */,
+				4474C980F331564D02613E12A66A00E6 /* TBIMLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
 				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E06DFAE01761D0FE4D53B47BF0AE0B15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F55BCC98237636094A454DDB66187881 /* NSObject+YYModel.m in Sources */,
-				4DCA21B9AD36737E3AC8DAF3DA14ABA4 /* YYClassInfo.m in Sources */,
-				835D61A92B4506C4E21F249C6DAD2610 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2268,16 +2295,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF63D17F238170DFEE411575486D6147 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C1F430C4526BD0E673CDAB6D9E1AD66 /* module.modulemap in Sources */,
-				A897879F760B96D6C2884C147F0E6474 /* TBIM in Sources */,
-				78F2D38D82089F4ED1D8AED266BBFE23 /* TBIMLibrary-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F096BB7A4240EBD4A1CAB8FCEC173399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2299,17 +2316,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2546F974FA1E9C9C5679F35353DDA62F /* PBXTargetDependency */ = {
+		23E488B233D08439684F8DAB1FC6311D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYModel;
 			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 1CBB103ACC4984587196711727A81754 /* PBXContainerItemProxy */;
+			targetProxy = 4655BE0CEBDFF67BBC98A47D5D7A2926 /* PBXContainerItemProxy */;
 		};
-		2947D665B5E0B079FD8C2FD790D7B816 /* PBXTargetDependency */ = {
+		36CC9BBA6AA104DEBD5CB6973454762A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 8CA5C210B1317473B7ED4602378859A8 /* PBXContainerItemProxy */;
+			name = RealReachability;
+			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
+			targetProxy = B2998FFB04109FA348FF87B2E55D9711 /* PBXContainerItemProxy */;
 		};
 		43A1005876378E0AC926CA331779983A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2353,6 +2370,12 @@
 			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
 			targetProxy = 330BF6E5F927B061926B7D814EE45089 /* PBXContainerItemProxy */;
 		};
+		9D32F4D92918AC4F2BE7A29FCD698930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 1B3F9AD19BD0BD95CE7A6E7CD782BABB /* PBXContainerItemProxy */;
+		};
 		ADF4F3BA71A49585F5276F073FD8ABD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TBIMLibrary;
@@ -2370,12 +2393,6 @@
 			name = Specta;
 			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
 			targetProxy = 81D390111CFA66D79371ADA85407BA7D /* PBXContainerItemProxy */;
-		};
-		CA85FC37BF57903A850A72D4C93CA3E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SocketRocket;
-			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
-			targetProxy = 0CD08D64B3E1D058E7573056593F32C8 /* PBXContainerItemProxy */;
 		};
 		D083B9086A4C6D45E9CF7CE231C2B136 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2395,11 +2412,11 @@
 			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
 			targetProxy = 4DF66AAB25F40ECBA4F73504AF636F63 /* PBXContainerItemProxy */;
 		};
-		F4407256C17BBB52D1167DCD514D73CC /* PBXTargetDependency */ = {
+		F5B49230B36310CD4C72F45DAAF9CC90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RealReachability;
-			target = D877AA5CCB5772505261462171EF8A75 /* RealReachability */;
-			targetProxy = 455D6452765D378A5149ADE690FB3D54 /* PBXContainerItemProxy */;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 2F2885C31916A25B9D842498C396AA79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2437,7 +2454,7 @@
 			};
 			name = Debug;
 		};
-		0D57B2E74B001777FF208E6C9497943B /* Release */ = {
+		0AE2074E49B4640928C825A962159130 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86CA45E9D93C09B208A4869BD5A1838F /* YYModel.xcconfig */;
 			buildSettings = {
@@ -2463,11 +2480,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		149AD2D106548ED4482D5038E198CC8A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2490,6 +2506,38 @@
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
 				PRODUCT_MODULE_NAME = Expecta;
 				PRODUCT_NAME = Expecta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28E1AB46D4713280A2B19BD1335321B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CA45E9D93C09B208A4869BD5A1838F /* YYModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2566,37 +2614,6 @@
 			};
 			name = Release;
 		};
-		3366C8A610C71D3EF4F90CCE702E4252 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 305D70FCA010AB529A12F385322F3070 /* TBIMLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TBIMLibrary/TBIMLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary.modulemap";
-				PRODUCT_MODULE_NAME = TBIMLibrary;
-				PRODUCT_NAME = TBIMLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		349D9680290D8810BECCEA3E33102EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACC88CB539B4256B8396C6F0108D0854 /* FBSnapshotTestCase.xcconfig */;
@@ -2659,38 +2676,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3BE929D15FCB07508674338B26D74E07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 305D70FCA010AB529A12F385322F3070 /* TBIMLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TBIMLibrary/TBIMLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary.modulemap";
-				PRODUCT_MODULE_NAME = TBIMLibrary;
-				PRODUCT_NAME = TBIMLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		463FD45D835508F126B298747E64C98E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2786,6 +2771,38 @@
 			};
 			name = Debug;
 		};
+		6F651741FA90D28AB827DB0C24DC51D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9677F6A391BABF03084EAD6DCF0CA2 /* TBIMLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBIMLibrary/TBIMLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary.modulemap";
+				PRODUCT_MODULE_NAME = TBIMLibrary;
+				PRODUCT_NAME = TBIMLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7711C4021E19F02E4BA0F6C2093958FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB0874866E75D60D003322D16CDE58D9 /* AFNetworking.xcconfig */;
@@ -2817,37 +2834,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		77B7C91B637A0AC27CD85B11CA15E350 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86CA45E9D93C09B208A4869BD5A1838F /* YYModel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3104,6 +3090,37 @@
 			};
 			name = Release;
 		};
+		C66A168F299D722CA554FCD9D3415813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9677F6A391BABF03084EAD6DCF0CA2 /* TBIMLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBIMLibrary/TBIMLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBIMLibrary/TBIMLibrary.modulemap";
+				PRODUCT_MODULE_NAME = TBIMLibrary;
+				PRODUCT_NAME = TBIMLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DB53DD8375C6ECCD547DB0114000373E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6AD7DCCA3E875D7B553D5CED1E312874 /* SocketRocket.xcconfig */;
@@ -3232,11 +3249,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BB885FB337E5E5D7B14B88C1D46C063 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+		36C3FD5B8F9CBD36158238F39AFDBB7F /* Build configuration list for PBXNativeTarget "YYModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77B7C91B637A0AC27CD85B11CA15E350 /* Debug */,
-				0D57B2E74B001777FF208E6C9497943B /* Release */,
+				0AE2074E49B4640928C825A962159130 /* Debug */,
+				28E1AB46D4713280A2B19BD1335321B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D8E8C8B0D98635883FA2D11E2F51E /* Build configuration list for PBXNativeTarget "TBIMLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66A168F299D722CA554FCD9D3415813 /* Debug */,
+				6F651741FA90D28AB827DB0C24DC51D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3273,15 +3299,6 @@
 			buildConfigurations = (
 				DB53DD8375C6ECCD547DB0114000373E /* Debug */,
 				994E2849B2A147F7697C7E5DD12549B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		876EA4DD354C396F0E56A1D3F226E44C /* Build configuration list for PBXNativeTarget "TBIMLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3366C8A610C71D3EF4F90CCE702E4252 /* Debug */,
-				3BE929D15FCB07508674338B26D74E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

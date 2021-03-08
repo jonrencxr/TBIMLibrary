@@ -11,7 +11,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SocketRocket/SocketRocket.h>
+#import "SocketRocket/SocketRocket.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

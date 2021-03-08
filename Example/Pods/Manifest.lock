@@ -52,7 +52,7 @@ DEPENDENCIES:
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
   - Specta
-  - TBIMLibrary (= 0.0.100)
+  - TBIMLibrary (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -61,13 +61,15 @@ SPEC REPOS:
     - RealReachability
     - SocketRocket
     - YYModel
-  https://github.com/Thunbu/TBIMSpec:
-    - TBIMLibrary
   trunk:
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
     - Specta
+
+EXTERNAL SOURCES:
+  TBIMLibrary:
+    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -78,9 +80,9 @@ SPEC CHECKSUMS:
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  TBIMLibrary: c6eee38b633fc76ee1a6342818cd54dc97f0c5d9
+  TBIMLibrary: 0443d79b154230eb4c0ab26841d6c92dad3ca86e
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e309390c1f23adfee3a88a19fb274495e8666442
+PODFILE CHECKSUM: 89f081b46e7641efe57a97c9d6e9e8c9a4bdc7f4
 
 COCOAPODS: 1.8.3

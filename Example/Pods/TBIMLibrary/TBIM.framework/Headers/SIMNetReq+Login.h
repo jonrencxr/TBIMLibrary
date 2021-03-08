@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (NSURLSessionDataTask *)preLoginSDK:(NSDictionary *)params url:(NSString *)url complection:(JSONResultBlock)complection;
+
+- (NSURLSessionDataTask *)tbim_register:(NSDictionary *)params url:(NSString *)url complection:(JSONResultBlock)complection;
 @end
 
 NS_ASSUME_NONNULL_END

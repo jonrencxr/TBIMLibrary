@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param complection 回调
 - (NSURLSessionDataTask *)policyOSS:(NSString *)url headerField:(NSDictionary *)headerField complection:(JSONResultBlock)complection;
 
+- (NSURLSessionDataTask *)tb_policyQiNiu:(NSString *)url params:(NSDictionary *)param complection:(JSONResultBlock)complection;
+
 @end
 
 NS_ASSUME_NONNULL_END

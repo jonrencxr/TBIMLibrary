@@ -38,8 +38,8 @@ PODS:
   - RealReachability/Ping (1.3.0)
   - SocketRocket (0.5.1)
   - Specta (1.0.7)
-  - TBIMLibrary (0.0.20):
-    - AFNetworking (= 4.0.1)
+  - TBIMLibrary (0.0.22):
+    - AFNetworking (~> 4.0.1)
     - ReactiveCocoa (~> 2.5)
     - RealReachability (~> 1.3.0)
     - SocketRocket
@@ -47,7 +47,7 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - AFNetworking (~> 4.0)
+  - AFNetworking
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
@@ -80,9 +80,9 @@ SPEC CHECKSUMS:
   RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  TBIMLibrary: f9e4af94674159b1134acf3baf4e1b9a433b5c18
+  TBIMLibrary: 89d123a9932515ed19860311d342e28940dbec34
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 940fdc127c4b96bc08426ced48c5f67eac41a105
+PODFILE CHECKSUM: 9b66cf96beb8e79d4db3508cf6381aabc725ae21
 
 COCOAPODS: 1.8.3

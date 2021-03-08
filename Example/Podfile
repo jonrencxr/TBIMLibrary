@@ -8,7 +8,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'TBIMLibrary_Example' do
   pod 'TBIMLibrary', :path => '../'
 #  pod 'TBIMLibrary', '0.0.5'
-  pod 'AFNetworking', '~> 4.0'
+  pod 'AFNetworking'
 
   target 'TBIMLibrary_Tests' do
     inherit! :search_paths

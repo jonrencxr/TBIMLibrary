@@ -1,6 +1,6 @@
 {
   "name": "TBIMLibrary",
-  "version": "0.0.104",
+  "version": "0.0.105",
   "summary": "TBIMLibrary is easy to use",
   "description": "TBIMLibrary is easy to use",
   "homepage": "https://github.com/Thunbu/TBIMLibrary.git",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/Thunbu/TBIMLibrary.git",
-    "tag": "0.0.104"
+    "tag": "0.0.105"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TBIM.framework/**/*",
+  "source_files": "SIMSDK.framework/**/*",
   "ios": {
-    "vendored_frameworks": "TBIM.framework"
+    "vendored_frameworks": "SIMSDK.framework"
   },
   "dependencies": {
     "AFNetworking": [

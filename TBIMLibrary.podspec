@@ -30,8 +30,8 @@ TBIMLibrary is easy to use
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TBIM.framework/**/*'
-  s.ios.vendored_frameworks = 'TBIM.framework'
+  s.source_files = 'SIMSDK.framework/**/*'
+  s.ios.vendored_frameworks = 'SIMSDK.framework'
   
   # s.resource_bundles = {
   #   'TBIMLibrary' => ['TBIMLibrary/Assets/*.png']

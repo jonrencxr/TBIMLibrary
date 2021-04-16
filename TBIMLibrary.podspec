@@ -37,7 +37,7 @@ TBIMLibrary is easy to use !
   #   'TBIMLibrary' => ['TBIMLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
+  s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'

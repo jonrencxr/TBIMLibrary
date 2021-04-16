@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBIMLibrary'
-  s.version          = '0.0.113'
+  s.version          = '0.0.114'
   s.summary          = 'TBIMLibrary is easy to use'
 
 # This description is used to generate tags and improve search results.
@@ -43,4 +43,5 @@ TBIMLibrary is easy to use !
   s.dependency 'YYModel'
   s.dependency 'SocketRocket'
   s.dependency 'RealReachability', '~> 1.3.0'
+  s.dependency 'AliyunOSSiOS', '~> 2.10.7'
 end

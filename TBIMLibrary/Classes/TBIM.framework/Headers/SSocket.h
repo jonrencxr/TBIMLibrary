@@ -11,7 +11,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SocketRocket/SocketRocket.h"
+#import <SocketRocket/SocketRocket.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,28 +27,28 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 /**
- *  通过Url连接Socket通道
- *
- *  @param url 连接URL
+ 通过Url连接Socket通道
+
+ @param url 连接URL
  */
 - (void)connectWithUrl:(NSURL *)url;
 
 /**
- *  关闭Socket通道
+ 关闭Socket通道
  */
 - (void)close;
 
 /**
- *  发送字节消息
- *
- *  @param data 传输字节内容
+ 发送字节消息
+ 
+ @param data 传输字节内容
  */
 - (void)sendData:(NSData *)data;
 
 @end
 
 /**
- *  将Socket通道产生的数据，实时回调到外部
+ 将Socket通道产生的数据，实时回调到外部
  */
 @protocol SSocketDelegate <NSObject>
 // 接收到了新数据

@@ -73,6 +73,10 @@ NS_ASSUME_NONNULL_BEGIN
                               complection:(JSONResultBlock)complection;
 
 
+/**
+ 查询用户在线状态
+ */
+- (NSURLSessionDataTask *)userInlineStatus:(NSDictionary *)dic Complection:(JSONResultBlock)complection;
 
 @end
 

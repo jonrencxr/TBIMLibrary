@@ -13,17 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SIMTools : NSObject
 
 /**
- *  生成32位UUID
+ 生成32位UUID
  */
 + (NSString *)uuidString;
 
-
-/**
- *  JSON格式字符串转字典
- *
- *  @param jsonString  需要JSON的字符串
- *  @return 字典
- */
+//json格式字符串转字典：
 + (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
 
 

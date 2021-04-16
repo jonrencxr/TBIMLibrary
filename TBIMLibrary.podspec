@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBIMLibrary'
-  s.version          = '0.0.111'
+  s.version          = '0.0.113'
   s.summary          = 'TBIMLibrary is easy to use'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TBIMLibrary is easy to use
+TBIMLibrary is easy to use !
                        DESC
 
   s.homepage         = 'https://github.com/Thunbu/TBIMLibrary.git'
@@ -39,8 +39,7 @@ TBIMLibrary is easy to use
 
   # s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'AFNetworking','3.2.1'
+  s.dependency 'AFNetworking'
   s.dependency 'YYModel'
   s.dependency 'SocketRocket'
   s.dependency 'RealReachability', '~> 1.3.0'

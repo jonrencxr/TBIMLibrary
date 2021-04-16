@@ -14,29 +14,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString * time;
 
-/**
- *  终端类型
- */
 @property (nonatomic, assign) NSInteger terminal;
 
-/**
- *  多端登录状态
- */
 @property (nonatomic, assign) SIMMultiterminalLoginState loginState;
 
-/**
- *  状态是否 在线  YES 在线
- */
-@property (nonatomic, assign) BOOL isON;
+@property (nonatomic, assign) BOOL isON; //状态是否 在线  YES 在线
 
 @end
 
 
 @interface SIMMultiterminalLogin : NSObject
 
-/**
- *  多端登录状态数组
- */
 @property (nonatomic, strong) NSArray <SIMMultiterminalLoginStateMessage*> * data;
 
 @end

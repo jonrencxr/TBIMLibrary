@@ -83,6 +83,7 @@ typedef NS_ENUM(NSInteger, SIM_SNS_SYSTEM_TYPE){
  * 性别
  */
 typedef NS_ENUM(NSInteger,SIMSexType){
+    
     /** 男 */
     SIMSexType_Man = 1,
     
@@ -104,6 +105,11 @@ typedef NS_ENUM(NSInteger, SIMDelFriendType) {
 };
 
 typedef NS_ENUM(NSInteger, SIMFriendResponseType) {
+    //    /**
+    //     *  同意加好友（建立单向好友）
+    //     */
+    //    SIM_FRIEND_RESPONSE_AGREE                       = 0,
+    
     /**
      *  拒绝对方好友请求
      */
@@ -200,9 +206,9 @@ typedef void (^SIMFriendResultArraySucc)(NSArray<SIMFriendResult *> *results);
 typedef void (^SIMGetFriendPendencyListSucc)(SIMFriendPendencyResponse *pendencyResponse);
 
 /**
- *  获取好友申请未读数成功回调
- *
- *  @param number 未读数
+ 获取好友申请未读数成功回调
+
+ @param number 未读数
  */
 typedef void (^SIMGetFridenApplyUnReadSucc)(NSNumber * number);
 

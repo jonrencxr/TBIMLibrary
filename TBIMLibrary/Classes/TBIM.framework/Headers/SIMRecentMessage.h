@@ -13,24 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SIMRecentMessage : SIMBaseMessage
 
-/**
- *  最新消息时间戳
- */
 @property (nonatomic,assign) long lastMsgTime;
-
-/**
- *  登录时间戳
- */
 @property (nonatomic,assign) long loginTime;
-
-/**
- *  最后一条消息的后台ID
- */
-@property (nonatomic,copy) NSString *tId;
-
-/**
- *  搜索类型
- */
+@property (nonatomic,copy) NSString *tId; //最后一条消息的后台ID
 @property (nonatomic,assign) SIMRecentQueryType queryType;
 
 @end
@@ -38,34 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SIMRecentMsgPage : NSObject
 
-/**
- *
- */
 @property (nonatomic,strong) NSArray *messageList;
-
-/**
- *
- */
 @property (nonatomic,assign) BOOL lastPage;
-
-/**
- *  搜索类型
- */
 @property (nonatomic,assign) SIMRecentQueryType queryType;
-
-/**
- *  最新消息时间戳
- */
 @property (nonatomic,assign) long lastMsgTime;
-
-/**
- *  最后一条消息的后台ID
- */
-@property (nonatomic,copy) NSString *tId;
-
-/**
- *  
- */
+@property (nonatomic,copy) NSString *tId; //最后一条消息的后台ID
 @property (nonatomic,strong) NSArray *data;
 
 @end

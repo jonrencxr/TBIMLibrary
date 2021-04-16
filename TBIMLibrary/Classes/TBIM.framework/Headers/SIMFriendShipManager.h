@@ -88,7 +88,7 @@ extern NSString *const TuserInfoTypeKey_Custom_Prefix;
 /**
  *  设置自己的资料
  *
- *  @param values 需要更新的属性，可一次更新多个字段. 参见 SIMUserProfile 的 SIMUserInfoTypeKey_XXX
+ *  @param values 需要更新的属性，可一次更新多个字段. 参见 SIMUserInfo 的 SIMUserInfoTypeKey_XXX
  *  @param succ 成功回调
  *  @param fail 失败回调
  *
@@ -114,7 +114,7 @@ extern NSString *const TuserInfoTypeKey_Custom_Prefix;
 /**
  *  通过accounts集合获取用户账号信息
  *
- *  @param identifiers  用户id，非好友的用户也可以，逗号隔开
+ *  @param identifiers  用户id，非好友的用户也可以
  *  @param succ         成功回调
  *  @param fail         失败回调
  *
@@ -147,7 +147,7 @@ extern NSString *const TuserInfoTypeKey_Custom_Prefix;
  *
  *  @return 0 发送请求成功
  */
-- (int)getFriendListRequest:(SIMFriendListRequest *)request succ:(SIMGetFriendArraySucc)succ fail:(SIMFail)fail;
+-(int)getFriendListRequest:(SIMFriendListRequest*)request succ:(SIMGetFriendArraySucc)succ fail:(SIMFail)fail;
 
 
 /**
@@ -200,24 +200,26 @@ extern NSString *const TuserInfoTypeKey_Custom_Prefix;
 
 
 /**
- *  获取好友未读数量
- *
- *  @param succ 好友申请未读数回调
- *  @param fail 失败回调
- *  @return 0 发送请求成功
+ 获取好友未读数量
+
+ @param succ 好友申请未读数回调
+ @param fail 失败回调
+ @return 0 发送请求成功
  */
 - (int)getFriendApplyUnreadNumberWithSucc:(SIMGetFridenApplyUnReadSucc)succ fail:(SIMFail)fail;
 
 
 /**
- *  设置申请好友记录已读
+ 设置申请好友记录已读
  
- *  @param succ 成功回调
- *  @param fail 失败回调
- *  @return 0 发送请求成功
+ @param succ 成功回调
+ @param fail 失败回调
+ @return 0 发送请求成功
  */
 - (int)setFriendApplyReadSucc:(SIMSucc)succ fail:(SIMFail)fail;
 
+// 获取用户在线状态
+- (void)userInlineStatus:(NSDictionary *)dic success:(SIMSuccData)succ fail:(SIMFail)fail;
 @end
 
 NS_ASSUME_NONNULL_END

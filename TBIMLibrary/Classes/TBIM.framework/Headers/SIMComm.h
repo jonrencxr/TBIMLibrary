@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 枚举类型
 
 /**
- *  Client和Server对接Command
+ Client和Server对接Command
  */
 typedef NS_ENUM(NSInteger, SIMCommandType){
     // 通用
@@ -45,6 +45,7 @@ typedef NS_ENUM(NSInteger, SIMCommandType){
     SIMCommandType_message_noti_replycount = 33,                    ///< 消息引用回复的数量
     SIMCommandType_message_hadRead = 34,                            ///< 消息已读通知（服务端发给消息发送者）
     SIMCommandType_message_getHadRead = 35,                         ///< 主动获取消息已读通知
+    SIMCommandType_message_RedEnvelopeClicked = 37,                 ///< 红包消息体点击变暗通知
     // 会话相关
     SIMCommandType_session_list = 50,                               ///< 获取会话列表
     SIMCommandType_session_create = 51,                             ///< 会话创建通知（加好友，加群等给自己三端同步）
@@ -58,6 +59,7 @@ typedef NS_ENUM(NSInteger, SIMCommandType){
     SIMCommandType_session_noti_delete = 59,                        ///< 设置会话不可见通知（删除会话）
     SIMCommandType_session_update_name = 60,                        ///< 会话名称修改设置
     SIMCommandType_session_noti_update_name = 61,                   ///< 会话名称修改设置通知
+    SIMCommandType_change_postpone_status = 63,                        ///设置稍后处理状态
     // 自定义消息
     SIMCommandType_message_custom = 99,                             ///< 自定义消息
     // 账号和好友关系
@@ -75,6 +77,7 @@ typedef NS_ENUM(NSInteger, SIMCommandType){
     SIMCommandType_friend_delete = 111,                             ///< 删除好友
     SIMCommandType_friend_noti_delete = 112,                        ///< 删除好友通知
     SIMCommandType_friend_noti_remark = 113,                        ///< 好友标注修改通知
+    
     // 群组相关
 //    SIMCommandType_ = 200,///< 创建群组
 //    SIMCommandType_ = 201,///< 申请加入群组
@@ -118,8 +121,9 @@ typedef void (^SIMSuccData)(id data);
  *  操作失败回调
  *
  *  @param error 自定义错误错误码
+ 
  */
-typedef void (^SIMFail)(SIMError * __nullable error);
+typedef void (^SIMFail)(SIMError * error);
 
 /**
  *  文件上传成功回调

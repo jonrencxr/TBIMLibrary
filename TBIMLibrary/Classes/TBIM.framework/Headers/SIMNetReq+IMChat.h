@@ -13,6 +13,16 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SIMNetReq (IMChat)
 
 /**
+ 会话设置
+ 
+ @param params  会话设置参数
+ @param         complection 回调
+ @return        当前HTTP请求任务
+ */
+- (NSURLSessionDataTask *)chatSessionSet:(NSDictionary *)params
+                             complection:(JSONResultBlock)complection;
+
+/**
  查询离线消息
 
  @param params 参数
@@ -33,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param sessionType 单聊 0/群聊 1
  */
 - (NSURLSessionDataTask *)pullMsgListWithMsgIds:(NSArray *)ids
-                                    sessionType:(int16_t)sessionType
+                                    sessionType:(int16_t)sessionType dmSource:(NSString *)dm extend:(NSDictionary *)dic
                                     complection:(JSONResultBlock)complection;
 
 /**
@@ -139,6 +149,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 查询最近一分钟音视频消息
 /// @param complection 回调
 - (NSURLSessionDataTask *)pullCallMsgsOfMinute:(JSONResultBlock)complection;
+
 
 @end
 

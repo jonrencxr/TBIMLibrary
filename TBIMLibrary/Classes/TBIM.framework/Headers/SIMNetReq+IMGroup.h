@@ -127,7 +127,25 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (NSURLSessionDataTask *)getGroupEventExplainHistory:(NSString *)groupId groupType:(NSInteger)groupType complection:(JSONResultBlock)complection;
 
+/*
+ 群代办确认
+ */
+- (NSURLSessionDataTask *)groupChangeEventStatus:(NSDictionary *)params complection:(JSONResultBlock)complection;
 
+/*禁言相关信息*/
+- (NSURLSessionDataTask *)groupProhibitInfo:(NSDictionary *)params complection:(JSONResultBlock)complection;
+
+/* 全员禁言*/
+- (NSURLSessionDataTask *)groupAllProhibit:(NSDictionary *)params complection:(JSONResultBlock)complection;
+/*
+ 添加禁言成员或者添加可发言成员
+ */
+- (NSURLSessionDataTask *)groupAddProhibitMembers:(NSDictionary *)params complection:(JSONResultBlock)complection;
+
+/*
+ 解除禁言 / 移除可发言成员接口
+ */
+- (NSURLSessionDataTask *)groupCancleProhibitMembers:(NSDictionary *)params complection:(JSONResultBlock)complection;
 #pragma mark - 入群管理
 
 /**

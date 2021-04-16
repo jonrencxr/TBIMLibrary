@@ -11,24 +11,25 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- *  错误类
+ * 错误类
  */
 @interface SIMError : NSObject
 
 /**
- *  错误类型
+ @property
+ @brief 错误类型
  */
-@property (nonatomic, readonly) NSInteger errorCode;
+@property (nonatomic, readonly)NSInteger errorCode;
 
 /**
- *  错误类型描述
+ @property
+ @brief 错误类型描述
  */
 @property (nonatomic, copy) NSString *errorDescription;
 
 /**
- *  初始化实例
- *  @param errorCode 错误类型
- *  @return SIMError实例
+ @param errorCode 错误类型
+ @return 错误
  */
 
 + (nullable SIMError *)errorWithCode:(NSInteger)errorCode;

@@ -12,15 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SIMNetReq (IMSession)
 
 /**
- 会话设置
- 
- @param params  会话设置参数
- @param         complection 回调
- @return        当前HTTP请求任务
- */
-- (NSURLSessionDataTask *)chatSessionSet:(NSDictionary *)params
-                             complection:(JSONResultBlock)complection;
-/**
  拉取会话列表
  
  @param params 参数
@@ -69,6 +60,16 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSURLSessionDataTask *)pullBoxChatSession:(NSDictionary *)params
                                  Complection:(JSONResultBlock)complection;
 
+
+/**
+ 设置稍后处理
+ */
+- (NSURLSessionDataTask *)setSessionPostpone:(NSMutableArray *)sessions complection:(JSONResultBlock)complection;
+
+/**
+ 获取稍后处理列表
+ */
+- (NSURLSessionDataTask *)postponeSessions:(JSONResultBlock)complection;
 @end
 
 NS_ASSUME_NONNULL_END

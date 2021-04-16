@@ -49,6 +49,8 @@ typedef NS_ENUM(NSInteger, SIMMultiterminalLoginState) {
      *  Web端同时在线
      */
     SIMMultiterminalLoginState_Web                   = 2,
+    
+
 };
 
 
@@ -56,150 +58,85 @@ typedef NS_ENUM(NSInteger, SIMMultiterminalLoginState) {
 #pragma mark - Session
 
 /**
- *  获取session列表回调
- *
- *  @param sessions 会话列表
+ 获取session列表回调
+
+ @param sessions 会话列表
  */
 typedef void (^SIMGetSessionResultArraySucc)(NSArray <SIMSession *> *sessions);
 
-
-/**
- *  获取会话信息成功回调
- *
- *  @param session 会话信息
- */
 typedef void (^SIMGetSessionResultSucc)(SIMSession *session);
-
-/**
- *  置顶
+/*
+ 置顶
  */
 @interface SIMTopParam : NSObject
 
-/**
- *  会话Id
- */
-@property (nonatomic, copy) NSString *sessionId;
+@property (nonatomic, copy) NSString *sessionId; //会话Id
 
-/**
- *  会话类型
- */
-@property (nonatomic, assign) SIMSessionType sessionType;
+@property (nonatomic, assign) SIMSessionType sessionType; //会话类型
 
-/**
- *  安全类型0普通，1私聊
- */
-@property (nonatomic, assign) SIMSecType securityType;
+@property (nonatomic, assign) SIMSecType securityType; //安全类型0普通，1私聊
 
-/**
- *  是否置顶：0否，1是
- */
-@property (nonatomic, assign) int isTop;
+@property (nonatomic, assign) int isTop; //是否置顶：0否，1是
 
 @end
 
 
-/**
- *  免打扰
+/*
+ 免打扰
  */
 @interface SIMDisturbParam : NSObject
 
-/**
- *  会话Id
- */
-@property (nonatomic, copy) NSString *sessionId;
+@property (nonatomic, copy) NSString *sessionId; //会话Id
 
-/**
- *  会话类型
- */
-@property (nonatomic, assign) SIMSessionType sessionType;
+@property (nonatomic, assign) SIMSessionType sessionType; //会话类型
 
-/**
- *  安全类型0普通，1私聊
- */
-@property (nonatomic, assign) SIMSecType securityType;
+@property (nonatomic, assign) SIMSecType securityType; //安全类型0普通，1私聊
 
-/**
- *  是否免打扰：0否，1是
- */
-@property (nonatomic, assign) int notDisturb;
+@property (nonatomic, assign) int notDisturb; //是否免打扰：0否，1是
 
 @end
 
-
 /**
- *  会话通知类消息
+ 会话通知类消息
  */
 @interface SIMSessionTip : NSObject
-
-/**
- *  会话Id
- */
-@property (nonatomic, copy) NSString *sessionId;
-
-/**
- *  会话类型
- */
-@property (nonatomic, assign) SIMSessionType sessionType;
-
-/**
- *  安全类型0普通，1私聊
- */
-@property (nonatomic, assign) SIMSecType securityType;
-
+@property (nonatomic, copy) NSString *sessionId; //会话Id
+@property (nonatomic, assign) SIMSessionType sessionType; //会话类型
+@property (nonatomic, assign) SIMSecType securityType; //安全类型0普通，1私聊
 @end
-
 
 @interface SIMSessionTopTip : SIMSessionTip
-/**
- *  置顶
- */
-@property (nonatomic, assign) BOOL isTop;
+@property (nonatomic, assign) BOOL isTop; //置顶
 @end
 
+@interface SIMSessionPostpone : SIMSessionTip
+
+@property (nonatomic, assign) int isLaterDeal; //稍后处理
+@end
 
 @interface SIMSessionDisturbTip : SIMSessionTip
-/**
- *  免打扰
- */
-@property (nonatomic, assign) BOOL notDisturb;
+@property (nonatomic, assign) BOOL notDisturb; //免打扰
 @end
 
-
-/**
- *  清空未读数
- */
-@interface SIMSessionClearUnRead : SIMSessionTip
+@interface SIMSessionClearUnRead : SIMSessionTip //清空未读数
 
 @end
 
-
-/**
- *  会话删除
- */
-@interface SIMSessionDeleteTip : SIMSessionTip
+@interface SIMSessionDeleteTip : SIMSessionTip //会话删除
 
 @end
 
 
 /**
- *  会话请求体
+ 会话请求体
  */
 @interface SIMSessionRequest : NSObject
 
-/**
- *  会话ID
- */
-@property (nonatomic,strong) NSString * sessionId;
+@property (nonatomic,strong) NSString * sessionId; //会话ID
 
-/**
- *  会话类型
- */
-@property (nonatomic,assign) SIMSessionType sessionType;
+@property (nonatomic,assign) SIMSessionType sessionType; //会话类型
 
-/**
- *  安全类型
- */
-@property (nonatomic,assign) SIMSecType secType;
+@property (nonatomic,assign) SIMSecType secType; //安全类型
 
 @end
 

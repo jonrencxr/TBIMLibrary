@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) uint32_t role;
 
 /**
- *  名称拼音
+ 名称拼音
  */
 @property(nonatomic,strong) NSString* namePY;
 
@@ -144,7 +144,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- *  返回结果
+ 返回结果
  */
 @interface SIMFriendResult : NSObject
 /**
@@ -228,7 +228,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString* remark;
 
 /**
- *  理由
+ 理由
  */
 @property(nonatomic,strong) NSString * reason;
 
@@ -287,7 +287,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) SIMPendencyType type;
 
 /**
- *  操作类型
+ 操作类型
  */
 @property(nonatomic,assign) SIMFriendPendencyItemType reqAck;
 
@@ -302,15 +302,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- *  获取好友列表请求
+ 获取好友列表请求
  */
 @interface SIMFriendListRequest : NSObject
 /**
- *  请求页数
+ 请求页数
  */
 @property(nonatomic,assign) NSInteger page;
 /**
- *  每页数量
+ 每页数量
  */
 @property(nonatomic,assign) NSInteger size;
 
@@ -323,27 +323,27 @@ NS_ASSUME_NONNULL_BEGIN
 /////////////////////////////////////////////////////////////////////////////////
 
 /**
- *  获取好友列表 响应
+ 获取好友列表 响应
  */
 @interface SIMFriendListResponse : NSObject
 
 /**
- *  当前页
+ 当前页
  */
 @property(nonatomic,assign) NSInteger page;
 
 /**
- *  每页数量
+ 每页数量
  */
 @property(nonatomic,assign) NSInteger pageSize;
 
 /**
- *  拉取到的数量
+ 拉取到的数量
  */
 @property(nonatomic,assign) NSInteger size;
 
 /**
- *  好友列表List
+ 好友列表List
  */
 @property(nonatomic,strong) NSArray<SIMFriend * > * friends;
 
@@ -383,19 +383,16 @@ NS_ASSUME_NONNULL_BEGIN
  * 未决返回信息 响应
  */
 @interface SIMFriendPendencyResponse : NSObject
-
 /**
- *  当前页
+ 当前页
  */
 @property (nonatomic,assign) NSInteger page;
-
 /**
- *  每页条数
+ 每页条数
  */
 @property (nonatomic,assign) NSInteger pageSize;
-
 /**
- *  拉取到的数量
+ 拉取到的数量
  */
 @property (nonatomic,assign) NSInteger size;
 
@@ -405,6 +402,36 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSArray<SIMFriendPendencyItem *> * pendencies;
 
 @end
+
+
+
+///**
+// * 未决推送
+// */
+//@interface SIMFriendPendencyInfo : NSObject
+///**
+// * 用户标识
+// */
+//@property(nonatomic,strong) NSString* identifier;
+///**
+// * 来源
+// */
+//@property(nonatomic,strong) NSString* addSource;
+///**
+// * 加好友附言
+// */
+//@property(nonatomic,strong) NSString* addWording;
+//
+///**
+// * 加好友昵称
+// */
+//@property(nonatomic,strong) NSString* nickname;
+//@end
+
+
+
+
+
 
 
 NS_ASSUME_NONNULL_END

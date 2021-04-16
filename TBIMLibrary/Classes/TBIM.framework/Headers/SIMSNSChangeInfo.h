@@ -33,12 +33,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString * identifier;
 
 /**
- *  记录ID
+ 记录ID
  */
 @property(nonatomic,strong) NSString * reqId;
 
 /**
- *  头像
+ 头像
  */
 @property(nonatomic,strong) NSString * faceURL;
 
@@ -63,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString * remark;
 
 /**
- *  同意/拒绝 type = SIM_SNS_SYSTEM_ADD_FRIEND 时有效
+ 同意/拒绝 type = SIM_SNS_SYSTEM_ADD_FRIEND 时有效
  */
 @property(nonatomic,assign) BOOL agree;
 

@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Geely. All rights reserved.
 //
 
-#import "AFNetworking/AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 #import "SIMHttpResponse.h"
 
 typedef NS_ENUM(NSUInteger, GLRequestSerializer) {
@@ -78,7 +78,7 @@ typedef void (^JSONResultBlock)(id resultObject, NSError *error);
                     routePath:(NSString *)path
                        params:(NSDictionary *)params
                    parseClass:(Class)modelClass
-                  headerField:(NSDictionary *)headerField
+                    headerField:(NSDictionary *)headerField
                         block:(JSONResultBlock)resultblock;
 
 /**

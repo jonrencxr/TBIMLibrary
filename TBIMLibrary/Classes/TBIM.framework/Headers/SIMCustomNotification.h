@@ -11,9 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SIMCustomNotification : NSObject
 
-/**
- *  通知内容
- */
 @property (nonatomic,strong) NSString * content;
 
 @end

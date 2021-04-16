@@ -24,17 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 /**
- *  注册listener服务
- *
- *  @param listener 客户方
+ 注册listener服务
+ 
+ @param listener 客户方
  */
 - (void)registListenerServices:(id<SIMListener>)listener;
-
-/**
- *  解除注册listener服务，和registListenerServices须要成对出现
- *
- *  @param listener 客户方
- */
 - (void)unRegistListenerServices:(id<SIMListener>)listener;
 
 @end
@@ -51,64 +45,74 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)onReceivedMessage:(SIMMessage *)msg;
 
+///**
+// *  收到了已读回执
+// *
+// *  @param elem 已读消息
+// */
+//- (void)onRecvMessage:(SIMReadElem *)elem;
+
+///**
+// *  消息撤回通知
+// *
+// *  @param elem 被撤回消息
+// */
+//- (void)onRevokeMessage:(SIMRevokeElem *)elem;
+
+///**
+// *  消息删除通知
+// *
+// *  @param elem 被删除消息
+// */
+//- (void)onDeleteMessage:(SIMDeleteElem *)elem;
 
 #pragma mark 离线消息
 
-/**
- *  离线消息
- *
- *  @param page 参数
- */
 - (void)onReceiveRecentMessages:(SIMRecentMsgPage *)page;
-
 
 #pragma mark 会话通知
 
-/**
- *  会话通知变更通知
- *
- *  @param tip 变更详情
- */
 - (void)onReceiveSessionTips:(SIMSessionTip *)tip;
 
-
 #pragma mark 群通知
+
+///**
+// 群通知
+//
+// @param tips 群通知
+// */
+//- (void)onReceiveGroupTips:(SIMMessage *)tips;
+
+///**
+// 系统通知
+//
+// @param tips 系统通知
+// */
+//- (void)onReceiveSystemTips:(SIMMessage *)tips;
 
 #pragma mark 好友
 
 /**
- *  关系链资料变更通知
- *
- *  @param changeInfo 变更详情
+ 关系链资料变更通知
+ @param changeInfo 变更详情
  */
-- (void)onReceiveSNSMessage:(SIMSNSChangeInfo *)changeInfo;
-
+- (void)onReceiveSNSMessage:(SIMSNSChangeInfo*)changeInfo;
 
 #pragma mark 自定义通知
 
 /**
- *  自定义通知
- *
- *  @param custom 自定义通知消息体
+ 自定义通知
+
+ @param custom 自定义通知消息体
  */
 - (void)onReceiveCustomNotification:(SIMCustomNotification *)custom;
 
-
 #pragma mark 多端登录状态
 
-/**
- *  多端上/下线通知
- *
- *  @param loginMsg 通知内容
- */
-- (void)onReceiveMultiterminalLoginState:(SIMMultiterminalLoginStateMessage *)loginMsg;
+- (void)onReceiveMultiterminalLoginState:(SIMMultiterminalLoginStateMessage * )loginMsg;
 
-
-/**
- *  下线通知汇总
- *
- *  @param offlineMsg 通知内容
- */
+/// 下线通知汇总
+/// @param offlineMsg 通知内容
 - (void)onReceiveOfflineMessage:(SIMOfflineMessage *)offlineMsg;
 
 @end

@@ -26,11 +26,11 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 枚举类型
 
 /**
- *  群组类型
+ 群组类型
  */
 typedef NS_ENUM(NSInteger, SIMGroupType) {
-    SIMGroupType_Private = 0, //私有群
-    SIMGroupType_Internal = 1, //公开群-内部群
+    SIMGroupType_Private  = 0, //私有群
+    SIMGroupType_Internal  = 1, //公开群-内部群
     SIMGroupType_Discuss = 2, //讨论组
     SIMGroupType_Event = 3, //事件群
     SIMGroupType_Public = 4, //外部群
@@ -50,7 +50,7 @@ typedef NS_ENUM(NSInteger, SIMGroupTipsType) {
 };
 
 /**
- *  群成员角色
+ * 群成员角色
  */
 typedef NS_ENUM(NSInteger, SIMGroupMemberRole) {
     /**
@@ -111,93 +111,59 @@ typedef void (^SIMApplyJoinGroupSucc)(NSString *applyId);
 #pragma mark - 基础类型
 
 /**
- *  群资料信息
+ 群资料信息
  */
 @interface SIMGroupInfo : NSObject
 
-/**
- *  群组 Id
- */
+//群组 Id
 @property(nonatomic,strong) NSString *groupId;
 
-/**
- *  群主账号
- */
+//群主 Id
 @property(nonatomic,strong) NSString *ownerId;
 
-/**
- *  群头像
- */
+//群头像
 @property(nonatomic,strong) NSString *avatar;
 
-/**
- *  群创建人
- */
+//群创建人
 @property(nonatomic,strong) NSString *createBy;
 
-/**
- *  创建时间
- */
+//创建时间
 @property(nonatomic,strong) NSString *createTime;
 
-/**
- *  是否解散：0正常，1解散
- */
+//是否解散：0正常，1解散
 @property(nonatomic,strong) NSString *delFlag;
 
-/**
- *  创建时间
- */
+//创建时间
 @property(nonatomic,strong) NSArray<SIMGroupMemberInfo *> *groupMembers;
 
-/**
- *  群成员数量
- */
+/// 群成员数量
 @property(nonatomic,assign) NSInteger num;
 
-/**
- *  群组类型 0私密群，1内部群，2讨论组，3事件群，4外部群，5组织群
- */
+//群组类型 0私密群，1内部群，2讨论组，3事件群，4外部群，5组织群
 @property(nonatomic,assign) SIMGroupType groupType;
 
-/**
- *  用户状态: 1需要审核，0不需要审核
- */
+//用户状态: 1需要审核，0不需要审核
 @property(nonatomic,assign) uint32_t isReview;
 
-/**
- *  人数上限
- */
+//人数上限
 @property(nonatomic,assign) uint32_t maxCount;
 
-/**
- *  群组名称
- */
+//群组名称
 @property(nonatomic,strong) NSString *name;
 
-/**
- *  群公告
- */
+//群公告
 @property(nonatomic,strong) SIMGroupNotice *groupNotice;
 
-/**
- *  修改人
- */
+//修改人
 @property(nonatomic,assign) uint32_t updateBy;
 
-/**
- *  修改时间
- */
+//修改时间
 @property(nonatomic,strong) NSString *updateTime;
 
-/**
- *  0：全部成员可添加群成员，1：仅群主及管理员可添加群成员
- */
+/// 0：全部成员可添加群成员，1：仅群主及管理员可添加群成员
 @property(nonatomic,assign) NSInteger invitedToggle;
 
-/**
- *  0：全部成员可@所有人，1：仅群主及管理员可@所有人
- */
+/// 0：全部成员可@所有人，1：仅群主及管理员可@所有人
 @property(nonatomic,assign) NSInteger atallToggle;
 
 @end
@@ -205,48 +171,32 @@ typedef void (^SIMApplyJoinGroupSucc)(NSString *applyId);
 
 
 /**
- *  群公告
+ 群公告
  */
 @interface SIMGroupNotice : NSObject
 
-/**
- *  主键
- */
+//主键
 @property(nonatomic,strong) NSString *noticeID;
 
-/**
- *  公告内容
- */
+//公告内容
 @property(nonatomic,strong) NSString *notice;
 
-/**
- *  创建人
- */
+//创建人
 @property(nonatomic,strong) NSString *createBy;
 
-/**
- *  创建人昵称
- */
+//创建人昵称
 @property(nonatomic,strong) NSString *createName;
 
-/**
- *  创建时间
- */
+//修改时间
 @property(nonatomic,strong) NSString *createTime;
 
-/**
- *  修改时间
- */
+//修改时间
 @property(nonatomic,strong) NSString *updateTime;
 
-/**
- *  是否被删除
- */
+//是否被删除
 @property(nonatomic,assign) BOOL delFlag;
 
-/**
- *  群ID
- */
+//群ID
 @property(nonatomic,assign) uint64_t groupId;
 
 @end
@@ -254,83 +204,53 @@ typedef void (^SIMApplyJoinGroupSucc)(NSString *applyId);
 
 
 /**
- *  群成员资料
+ 群成员资料
  */
 @interface SIMGroupMemberInfo : NSObject
 
-/**
- *  主键
- */
+//主键
 @property(nonatomic,strong) NSString *primaryKey;
 
-/**
- *  成员id
- */
+//成员id
 @property(nonatomic, copy) NSString *userId;
 
-/**
- *  群ID
- */
+//群ID
 @property(nonatomic,assign) uint64_t groupId;
 
-/**
- *  群成员姓名
- */
+//群成员姓名
 @property(nonatomic,strong) NSString *nickname;
 
-/**
- *  群成员昵称
- */
+//群成员昵称
 @property(nonatomic,strong) NSString *petName;
 
-/**
- *  本人被谁邀请进群的（非邀请的情况，本字段则可为空）
- */
+//本人被谁邀请进群的（非邀请的情况，本字段则可为空）
 @property(nonatomic, copy) NSString * beInviteId;
 
-/**
- *  如是群的被转让人，本字段填的就是最近一次被转让时的时间
- */
+//如是群的被转让人，本字段填的就是最近一次被转让时的时间
 @property(nonatomic,strong) NSString *beOwnerTime;
 
-/**
- *  群创建人
- */
+//群创建人
 @property(nonatomic,strong) NSString *createBy;
 
-/**
- *  加入群组时间
- */
+//加入群组时间
 @property(nonatomic, copy) NSString * createTime;
 
-/**
- *  删除标识，0代表为删除，1代表已删除
- */
+//删除标识，0代表为删除，1代表已删除
 @property(nonatomic,assign) uint32_t delFlag;
 
-/**
- *  免打扰（1表示消息免打扰）
- */
+//免打扰（1表示消息免打扰）
 @property(nonatomic,assign) uint32_t disturb;
 
-/**
- *  消息置顶（1表示置顶）
- */
+//消息置顶（1表示置顶）
 @property(nonatomic,assign) uint32_t top;
 
-/**
- *  用户角色（0群主，1管理员，2普通用户）
- */
+//用户角色（0群主，1管理员，2普通用户）
 @property(nonatomic,assign) SIMGroupMemberRole role;
 
-/**
- *  修改人
- */
+//修改人
 @property(nonatomic, copy) NSString *updateBy;
 
-/**
- *  修改时间
- */
+//修改时间
 @property(nonatomic,strong) NSString *updateTime;
 
 @end

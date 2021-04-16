@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBIMLibrary'
-  s.version          = '0.0.114'
+  s.version          = '0.0.115'
   s.summary          = 'TBIMLibrary is easy to use'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TBIMLibrary is easy to use !
   #   'TBIMLibrary' => ['TBIMLibrary/Assets/*.png']
   # }
 
-  s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/**/*'
+  s.public_header_files = 'TBIMLibrary/Classes/TBIM.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'

@@ -118,9 +118,22 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) SIM_IMAGE_FORMAT format;
 
 /**
- *  要发送的图片路径
+ path、 upImage、 imageData三者选其一即可
+ 
+ */
+
+/**
+ *  要发送的图片路径 注意是本地沙盒路径 不是相册中的路径
  */
 @property(nonatomic,strong) NSString *path;
+/**
+ 要发送的图片对象
+ */
+@property(nonatomic, strong)UIImage *upImage;
+/**
+ 要发送的图片data
+ */
+@property(nonatomic, strong)NSData *imageData;
 
 /// 是否发送原图
 @property(nonatomic,assign) BOOL isHD;

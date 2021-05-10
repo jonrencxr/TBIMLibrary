@@ -85,8 +85,6 @@ typedef void (^SIMLogFunc)(SIMLogLevel lvl, NSString * msg);
  *  用户标识接入 SDK 的应用 ID，必填
  */
 @property (nonatomic,strong) NSString *sdkAppId;
-@property (nonatomic,copy)NSString *budleId;
-@property (nonatomic,copy)NSString *accountId;
 
 /**
  *  Socket通道地址（IP+端口或者域名，若业务方没有配置，会使用默认值）
@@ -182,6 +180,7 @@ typedef void (^SIMLogFunc)(SIMLogLevel lvl, NSString * msg);
 
 // 用户的项目 bundleId
 @property(nonatomic, copy)NSString *bundleId;
+@property(nonatomic, copy)NSString *accountId;
 
 @end
 

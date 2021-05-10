@@ -36,15 +36,15 @@ NS_ASSUME_NONNULL_BEGIN
  登录SDK 统一入口
  */
 
-- (void)TBIM_loginSDK:(SIMSuccData)succ fail:(SIMFail)fail;
+- (void)SIM_loginSDKWithLoginParam:(SIMLoginParam *)param success:(SIMSuccData)succ fail:(SIMFail)fail;
 
 /**
  注册新用户接口
  */
 
-- (void)TBIM_register:(NSDictionary *)params success:(SIMSuccData)succ fail:(SIMFail)fail;
+- (void)SIM_register:(NSDictionary *)params success:(SIMSuccData)succ fail:(SIMFail)fail;
 
-- (void)TBIM_uploadPolocy:(SIMSuccData)succ fail:(SIMFail)fail;
+- (void)SIM_uploadPolocy:(SIMSuccData)succ fail:(SIMFail)fail;
 
 /**
  *  登录

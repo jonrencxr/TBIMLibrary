@@ -2,7 +2,7 @@
 //  NBNetReq+IMChat.h
 //  NBIMDemo
 //
-//  Created by changxuanren on 2019/6/4.
+//  on 2019/6/4.
 //  Copyright © 2019年 闪布科技. All rights reserved.
 //
 

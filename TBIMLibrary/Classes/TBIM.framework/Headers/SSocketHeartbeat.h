@@ -4,8 +4,7 @@
 //
 //  心跳管理器
 //
-//  Created by changxuanren on 2019/4/24.
-//  Copyright © 2019年 常宣任. All rights reserved.
+//  on 2019/4/24.
 //
 #import "SIMComm.h"
 #import <Foundation/Foundation.h>

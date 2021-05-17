@@ -2,7 +2,7 @@
 //  SIMNetReq+IMSession.h
 //  AFNetworking
 //
-//  Created by 王杰 on 2019/6/12.
+//  on 2019/6/12.
 //
 
 #import "SIMNetReq.h"

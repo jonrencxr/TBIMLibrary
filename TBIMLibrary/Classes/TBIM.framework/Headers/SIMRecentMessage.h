@@ -2,7 +2,7 @@
 //  SIMRecentMessage.h
 //  AFNetworking
 //
-//  Created by 王杰 on 2019/7/5.
+//  on 2019/7/5.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,7 @@
 //  NBNetReq.h
 //  Geely
 //
-//  Created by yangfan on 2018/6/20.
-//  Copyright © 2017年 Geely. All rights reserved.
+//  on 2018/6/20.
 //
 
 #import <AFNetworking/AFNetworking.h>

@@ -6,7 +6,7 @@
 //  如果消息通道协议改变，可以修改SSocket处逻辑
 //  SSocketApi在后期本质上不会有太大变化，因为接口独立
 //
-//  Created by 一个工匠 on 2019/6/1.
+//  on 2019/6/1.
 //  Copyright © 2019 闪布科技. All rights reserved.
 //
 

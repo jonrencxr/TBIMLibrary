@@ -2,7 +2,7 @@
 //  SIMComm.h
 //  NBIMDemo
 //
-//  Created by 一个工匠 on 2019/6/1.
+//  on 2019/6/1.
 //  Copyright © 2019 闪布科技. All rights reserved.
 //
 

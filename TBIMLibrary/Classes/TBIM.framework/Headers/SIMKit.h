@@ -2,8 +2,7 @@
 //  SIMKit.h
 //  NBIMDemo
 //
-//  Created by changxuanren on 2019/5/30.
-//  Copyright © 2019年 常宣任. All rights reserved.
+//  on 2019/5/30.
 //
 
 #ifndef SIMKit_h

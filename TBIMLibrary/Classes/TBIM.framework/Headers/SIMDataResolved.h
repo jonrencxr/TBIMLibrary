@@ -4,7 +4,7 @@
 //
 //  将需要的数据转成Model类型
 //
-//  Created by 一个工匠 on 2019/6/2.
+//  on 2019/6/2.
 //  Copyright © 2019 闪布科技. All rights reserved.
 //
 

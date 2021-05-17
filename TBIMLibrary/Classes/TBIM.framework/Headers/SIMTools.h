@@ -2,8 +2,7 @@
 //  SIMTools.h
 //  NBIMDemo
 //
-//  Created by changxuanren on 2019/5/7.
-//  Copyright © 2019年 常宣任. All rights reserved.
+//  on 2019/5/7.
 //
 
 #import <Foundation/Foundation.h>

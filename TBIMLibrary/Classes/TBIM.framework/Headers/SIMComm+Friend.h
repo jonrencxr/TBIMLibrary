@@ -2,7 +2,7 @@
 //  SIMComm+Friend.h
 //  NBIMDemo
 //
-//  Created by 王杰 on 2019/6/3.
+//  on 2019/6/3.
 //  Copyright © 2019 闪布科技. All rights reserved.
 //
 

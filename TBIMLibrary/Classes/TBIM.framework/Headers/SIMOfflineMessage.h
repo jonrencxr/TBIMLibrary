@@ -2,7 +2,7 @@
 //  SIMOfflineMessage.h
 //  AFNetworking
 //
-//  Created by changxuanren on 2019/10/8.
+//  on 2019/10/8.
 //
 
 #import "SIMBaseMessage.h"

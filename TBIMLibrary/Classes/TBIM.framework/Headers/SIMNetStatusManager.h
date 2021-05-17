@@ -2,7 +2,7 @@
 //  SIMNetStatusManager.h
 //  AFNetworking
 //
-//  Created by changxuanren on 2020/9/22.
+//  on 2020/9/22.
 //
 
 #import <Foundation/Foundation.h>

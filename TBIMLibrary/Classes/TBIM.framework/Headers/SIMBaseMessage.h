@@ -2,8 +2,7 @@
 //  SIMBaseMessage.h
 //  NBIMDemo
 //
-//  Created by changxuanren on 2019/4/25.
-//  Copyright © 2019年 常宣任. All rights reserved.
+//  on 2019/4/25.
 //
 
 #import <Foundation/Foundation.h>

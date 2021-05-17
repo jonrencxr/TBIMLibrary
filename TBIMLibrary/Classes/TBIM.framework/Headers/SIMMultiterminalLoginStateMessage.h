@@ -2,7 +2,7 @@
 //  SIMMultiterminalLoginStateMessage.h
 //  AFNetworking
 //
-//  Created by 王杰 on 2019/7/4.
+//  on 2019/7/4.
 //
 
 #import <Foundation/Foundation.h>

@@ -6,8 +6,7 @@
 //  如果后期需要其他协议，可以抛弃该处代码，直接另建文件重写Socket通道
 //  SSocketApi是外界接口，这里仅仅提供Socket通道，如果后期通道协议改变，新的文件对接SSocketApi即可快速完成通道变迁工作
 //
-//  Created by changxuanren on 2019/5/5.
-//  Copyright © 2019年 常宣任. All rights reserved.
+//  on 2019/5/5.
 //
 
 #import <Foundation/Foundation.h>

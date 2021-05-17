@@ -2,7 +2,7 @@
 //  SIMAddressBookManager.h
 //  SIMSDK
 //
-//  Created by xiaobing on 2021/4/7.
+//  on 2021/4/7.
 //
 
 #import <Foundation/Foundation.h>

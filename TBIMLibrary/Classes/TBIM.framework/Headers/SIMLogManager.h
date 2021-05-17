@@ -2,7 +2,7 @@
 //  SIMLogManager.h
 //  SIMSDK
 //
-//  Created by xiaobing on 2021/2/1.
+//  on 2021/2/1.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,7 +2,7 @@
 //  SIMFriend.h
 //  NBIMDemo
 //
-//  Created by 王杰 on 2019/5/27.
+//  on 2019/5/27.
 //  Copyright © 2019 闪布科技. All rights reserved.
 //
 

@@ -2,8 +2,7 @@
 //  NBNetReq+IMGroup.h
 //  NBIMDemo
 //
-//  Created by changxuanren on 2019/5/29.
-//  Copyright © 2019年 常宣任. All rights reserved.
+//  on 2019/5/29.
 //
 
 #import "SIMNetReq.h"

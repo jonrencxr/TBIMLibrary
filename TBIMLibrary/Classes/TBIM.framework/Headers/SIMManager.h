@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
  登录SDK 统一入口
  */
 
-- (void)SIM_loginSDKWithLoginParam:(SIMLoginParam *)param success:(SIMSuccData)succ fail:(SIMFail)fail;
+- (void)preLogin:(SIMLoginParam *)param success:(SIMSuccData)succ fail:(SIMFail)fail;
 
 /**
  注册新用户接口
@@ -45,6 +45,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)SIM_register:(NSDictionary *)params success:(SIMSuccData)succ fail:(SIMFail)fail;
 
 - (void)SIM_uploadPolocy:(SIMSuccData)succ fail:(SIMFail)fail;
+
+/**
+ *  登录
+ *
+ *  @param param 登陆参数
+ *  @param succ  成功回调
+ *  @param fail  失败回调
+ */
+- (void)loginWithParam:(SIMLoginParam*)param succ:(SIMSuccData)succ fail:(SIMFail)fail;
 
 /**
  *  登录

@@ -24,6 +24,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)resolvedString:(id)string completion:(void(^)(NSInteger command, NSString * _Nullable packetId, _Nullable id response, SIMError * _Nullable error))completion;
 
+/**
+ 根据传输的字符串数据进行解析
+
+ @param string 传输字传输数据，无command字段消息
+ @param completion packetId：包id    response：解析类型   error：错误类型
+ */
++ (void)resolvedMessageString:(id)string completion:(void(^)(NSInteger command, NSString * _Nullable packetId, _Nullable id response, SIMError * _Nullable error))completion;
+
 @end
 
 NS_ASSUME_NONNULL_END

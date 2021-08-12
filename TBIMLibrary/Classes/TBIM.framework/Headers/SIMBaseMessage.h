@@ -32,6 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) int command;
 
 /**
+ 消息序列ID
+ */
+@property (nonatomic, copy) NSString *serialId;
+
+/**
  包唯一ID
  */
 @property (nonatomic, copy) NSString *packetId;

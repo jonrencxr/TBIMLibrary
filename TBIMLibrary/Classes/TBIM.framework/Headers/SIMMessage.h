@@ -618,6 +618,47 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *evaluate;
 @end
 
+#pragma mark - 消息状态
+
+@interface SIMMessageStatus : NSObject
+
+/**
+ 撤回状态，0 未撤回，1已撤回
+ */
+@property (nonatomic, assign) int delFlag;
+
+/**
+ 是否已删除
+ */
+@property (nonatomic, assign) BOOL priDelFlag;
+
+/**
+ 标记红包是否点击,0 正常状态 1 点击过 变暗状态 当拿到服务端返回值的时候 统一放入 ECRedEnvelopesMsgBody redDarkenFlag 字段处理
+ */
+@property (nonatomic, assign) int redDarkenFlag;
+
+/**
+ 消息引用回复数量
+ */
+@property (nonatomic, assign) int replyCount;
+
+/**
+ 消息序列ID
+ */
+@property (nonatomic, copy) NSString *serialId;
+
+/**
+ 是否标记,false未标记 ，true已标记 ,
+ */
+@property (nonatomic, assign) BOOL sign;
+
+/**
+ 标记人账号
+ */
+@property (nonatomic, copy) NSString *signUser;
+
+@end
+
 #pragma mark - 普通消息体
 
 @interface SIMMessage : SIMBaseMessage
@@ -760,6 +801,12 @@ NS_ASSUME_NONNULL_BEGIN
  @return 会话Id
  */
 - (NSString *)getSessionId;
+
+/**
+ 更新消息状态
+ @param msgStatus 消息状态
+ */
+- (void)upadateMsgStatus:(SIMMessageStatus *)msgStatus;
 
 @end
 

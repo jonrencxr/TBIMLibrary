@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class SIMMessage;
+@class SIMMessageStatus;
 
 #pragma mark - 枚举类型
 
@@ -193,6 +194,7 @@ typedef NS_ENUM(NSInteger, SIMRecentQueryType) {
 
 typedef void (^SIMOfflineMsgReqSucc)(NSArray<SIMMessage *> *msgs);
 typedef void (^SIMOfflineAllMsgReqSucc)(NSArray<SIMMessage *> *msgs, NSArray<SIMMessage *> *cmdMsgs);
+typedef void (^SIMOfflineMsgStatusReqSucc)(NSArray<SIMMessageStatus *> *statusList);
 typedef void (^SIMMsgReqSucc)(SIMMessage *msg);
 typedef void (^SIMSearchMsgReqSucc)(NSArray<SIMMessage *> *msgs);
 
@@ -231,6 +233,48 @@ typedef void (^SIMSearchMsgReqSucc)(NSArray<SIMMessage *> *msgs);
 @property(nonatomic,assign) NSInteger rows;
 // 类型 0向下拉，1向上拉，2定位前后
 @property(nonatomic,assign) NSInteger type;
+
+@end
+
+// 离线消息拉取（不包括指令）
+@interface SIMOfflineAllSerialMsgReq : NSObject
+
+// 单聊传接收方账号，群聊传群 id (1-32 位)
+@property(nonatomic,strong) NSString *sessionId;
+// 类型 0 单聊，1 群聊
+@property(nonatomic,assign) NSInteger sessionType;
+// 安全类型，0 普通，1 密聊
+@property(nonatomic,assign) NSInteger securityType;
+// 开始 serialId,第一页传nil
+@property(nonatomic,strong) NSString *serialId;
+// 获取数量
+@property(nonatomic,assign) NSInteger rows;
+// 类型 0向下拉，1向上拉，2定位前后
+@property(nonatomic,assign) NSInteger type;
+
+@end
+
+// 敏感指令消息拉取
+@interface SIMOfflineCDMsgReq : NSObject
+
+// 时间戳
+@property(nonatomic,assign) long time;
+
+@end
+
+// 非敏感指令消息拉取，消息状态
+@interface SIMOfflineAllMsgStatusReq : NSObject
+
+// 单聊传接收方账号，群聊传群 id (1-32 位)
+@property(nonatomic,strong) NSString *sessionId;
+// 类型 0 单聊，1 群聊
+@property(nonatomic,assign) NSInteger sessionType;
+// 安全类型，0 普通，1 密聊
+@property(nonatomic,assign) NSInteger securityType;
+// 开始序列（小的序列）
+@property(nonatomic,copy) NSString *startSerialId;
+// 结束序列（大的序列）
+@property(nonatomic,copy) NSString *endSerialId;
 
 @end
 

@@ -36,6 +36,24 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSURLSessionDataTask *)pullAllMsgList:(NSDictionary *)params
                              complection:(JSONResultBlock)complection;
 
+/// 查询会话消息（不包括指令消息）
+/// @param params 参数
+/// @param complection 回调
+- (NSURLSessionDataTask *)pullAllSerialMsgList:(NSDictionary *)params
+                                   complection:(JSONResultBlock)complection;
+
+/// 查询敏感指令消息：删除、撤回等
+/// @param params 参数
+/// @param complection 回调
+- (NSURLSessionDataTask *)pullAllCDMsgList:(NSDictionary *)params
+                               complection:(JSONResultBlock)complection;
+
+/// 查询非敏感指令消息：标记取消标记等
+/// @param params 参数
+/// @param complection 回调
+- (NSURLSessionDataTask *)pullAllMsgStatusList:(NSDictionary *)params
+                                   complection:(JSONResultBlock)complection;
+
 /**
  根据消息Id查询消息
  

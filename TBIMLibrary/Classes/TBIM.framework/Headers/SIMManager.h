@@ -49,16 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  登录
  *
- *  @param param 登陆参数
- *  @param succ  成功回调
- *  @param fail  失败回调
- */
-- (void)loginWithParam:(SIMLoginParam*)param succ:(SIMSuccData)succ fail:(SIMFail)fail;
-
-/**
- *  登录
- *
- *  @param param 登陆参数
+ *  @param param.userId 用户Id
+ *  @param param.userSig 用户鉴权Token
  *  @param succ  成功回调
  *  @param fail  失败回调
  */

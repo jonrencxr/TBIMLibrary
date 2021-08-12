@@ -92,10 +92,33 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
 拉取会话消息（包括指令）
+ 不推荐使用此方法，请用pullAllSerialMsgList:succ:fail:
 
 @param req 参数请求体
 */
 - (void)pullAllMsgList:(SIMOfflineAllMsgReq *)req succ:(SIMOfflineAllMsgReqSucc)succ fail:(SIMFail)fail;
+
+/**
+拉取会话消息（不包括指令）
+ 推荐使用此方法
+
+@param req 参数请求体
+*/
+- (void)pullAllSerialMsgList:(SIMOfflineAllSerialMsgReq *)req succ:(SIMOfflineMsgReqSucc)succ fail:(SIMFail)fail;
+
+/**
+拉取敏感指令消息（消息状态）如删除、撤回等，用户感知明显
+
+@param req 参数请求体
+*/
+- (void)pullAllCDMsgList:(SIMOfflineCDMsgReq *)req succ:(SIMSuccData)succ fail:(SIMFail)fail;
+
+/**
+拉取非敏感指令消息（消息状态）如标记、取消标记等，用户感知不明显
+
+@param req 参数请求体
+*/
+- (void)pullAllMsgStatusList:(SIMOfflineAllMsgStatusReq *)req succ:(SIMOfflineMsgStatusReqSucc)succ fail:(SIMFail)fail;
 
 /**
  根据消息Id查询消息

@@ -326,13 +326,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (int)signOutGroup:(NSString *)groupId groupType:(SIMGroupType)groupType succ:(SIMSucc)succ fail:(SIMFail)fail;
 
 
-/// 搜索群名和群成员
+/// 搜索群名和群成员（已废弃）
 /// @param text 关键字
 /// @param succ 成功回调
 /// @param fail 失败回调
 - (int)searchGroupByName:(NSString *)text succ:(SIMSuccData)succ fail:(SIMFail)fail;
 
-/// 根据手机号搜索群名和群成员
+/// 根据手机号搜索群名和群成员（已废弃）
 /// @param mobile 手机号
 /// @param succ 成功回调
 /// @param fail 失败回调

@@ -22,7 +22,7 @@ pod 'TBIMLibrary'
 
 ## Author
 
-everyStudyNow, xiaobing.jin@geely.com
+
 
 ## License
 
